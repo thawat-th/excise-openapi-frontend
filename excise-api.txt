@@ -1,0 +1,9 @@
+ปรับปรุง landing page ส่วนของการ บริการที่เปิดให้เชื่อมต่อ
+โดยมีเนื้อหาด้านล่างนี้
+
+
+หมวด (TH)	Category (EN)	รายละเอียด	ระบบที่ครอบคลุม	ลักษณะ	Tag																				
+การจัดเก็บภาษีและรายได้	Tax & Revenue Services	บริการด้านการจัดเก็บภาษีสรรพสามิต การขึ้นทะเบียน การอนุญาต การยื่นแบบ การคำนวณ วิเคราะห์ และควบคุมการจัดเก็บรายได้ รวมถึงกองทุนน้ำมัน	จดทะเบียนสรรพสามิต, ขอใบอนุญาต, งานรายได้, แจ้งราคาขายปลีกแนะนำ, วิเคราะห์รายการภาษี, คืนยกเว้น, ลดหย่อนภาษี, กองทุนน้ำมัน, รับ–จ่ายน้ำมัน, D-Service, Wine Searcher	Core Mission, ปริมาณใช้งานสูง, Public/Partner/Internal API, ต้องมี Audit Log และ Risk-Based Access	tax, revenue, filing, oil, valuation																				
+การปราบปรามและบังคับใช้กฎหมาย	Enforcement & Compliance Services	บริการด้านการตรวจสอบ ป้องกัน ปราบปราม และสืบสวนการกระทำผิดกฎหมายสรรพสามิต	ผู้กระทำผิดกฎหมายสรรพสามิต, ปราบปรามสินค้าผิดกฎหมายออนไลน์, ตรวจสอบป้องกันและปราบปรามเคลื่อนที่	ข้อมูลอ่อนไหวสูง, Internal Only, Strong Auth (OIDC+mTLS), Data Masking	enforcement, compliance, investigation																				
+บริหารการคลังและทรัพย์สิน	Finance & Asset Management Services	บริการด้านการบริหารงบประมาณ ทรัพย์สิน คลังสินค้า และเครื่องหมายแสดงการเสียภาษี	บริหารสินทรัพย์, บริหารงบประมาณ, เครื่องหมายแสดงการเสียภาษี, บริหารคลังสินค้า	Back-office, Critical Data, Transaction-oriented, เหมาะกับ Event-Driven	finance, asset, warehouse, stamp																				
+บริหารองค์กรและกระบวนงาน	Organization & Workflow Services	บริการสนับสนุนการทำงานภายในองค์กร การจัดการเอกสาร กระบวนงานอิเล็กทรอนิกส์ และลายเซ็นดิจิทัล	e-Office, Document Center, e-Signature, ติดตามแผนงานโครงการ	Horizontal Service, Reusable, Platform API, ใช้ร่วมทุกระบบ	organization, workflow, document, signature, project																				

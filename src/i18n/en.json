@@ -1,0 +1,1981 @@
+{
+  "common": {
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "home": "Home",
+    "login": "Login",
+    "logout": "Logout",
+    "cancel": "Cancel",
+    "processing": "Processing...",
+    "or": "or",
+    "edit": "Edit",
+    "back": "Back",
+    "backToHome": "Back to Home",
+    "verifying": "Verifying...",
+    "warning": "Warning",
+    "email": "Email",
+    "phone": "Phone",
+    "remove": "Remove",
+    "dragDropOrClick": "Drag and drop file here, or click to select",
+    "acceptedFormats": "Accepted formats",
+    "maxFileSize": "Maximum file size",
+    "errors": {
+      "invalidFileType": "Invalid file type. Please select a supported file.",
+      "fileTooLarge": "File size exceeds {max}"
+    }
+  },
+  "validation": {
+    "password": {
+      "minLength": "Password must be at least 8 characters",
+      "uppercase": "Password must contain at least 1 uppercase letter (A-Z)",
+      "lowercase": "Password must contain at least 1 lowercase letter (a-z)",
+      "digit": "Password must contain at least 1 digit (0-9)",
+      "specialChar": "Password must contain at least 1 special character (!@#$%^&*)"
+    }
+  },
+  "header": {
+    "title": "Excise OpenAPI",
+    "subtitle": "Excise Government Open API Platform"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to common questions",
+    "questions": {
+      "whatIsApiPlatform": {
+        "question": "What is an API Platform?",
+        "answer": "API Platform is a platform that allows developers and organizations to connect with Excise Department systems through APIs (Application Programming Interfaces) to securely access data and services with standardized protocols."
+      },
+      "howToRegister": {
+        "question": "How do I register?",
+        "answer": "You can register in 2 types: Individual for developers and small businesses, or Organization for government and enterprises. Click the \"Register\" button above to get started."
+      },
+      "pricing": {
+        "question": "Is there a cost to use the platform?",
+        "answer": "Basic registration is free, but there may be fees for certain services or usage exceeding quotas. Details will be shown for each API."
+      },
+      "security": {
+        "question": "How secure is the platform?",
+        "answer": "We use international security standards including OAuth 2.0, HTTPS, and data encryption. All API requests require authentication and are logged in audit trails."
+      },
+      "support": {
+        "question": "Who do I contact for support?",
+        "answer": "You can contact our support team at support@excise.go.th or check the documentation in the Developer Portal after registration."
+      }
+    }
+  },
+  "home": {
+    "title": "Excise OpenAPI",
+    "subtitle": "Excise Government Open API Platform",
+    "description": "A Government Open API platform of the Excise Department for developers and partners to integrate excise-related services on a unified standard. It supports enterprise-grade security with identity and access management, enabling faster development, secure integration, and scalable service expansion for the future.",
+    "getStarted": "Get Started",
+    "features": "Features",
+    "secureAuth": "Secure Authentication",
+    "secureAuthDesc": "Enterprise-grade authentication with OpenID Connect and OAuth2 standards.",
+    "advancedApis": "Advanced APIs",
+    "advancedApisDesc": "Comprehensive RESTful APIs for excise management and compliance reporting.",
+    "easyIntegration": "Easy Integration",
+    "easyIntegrationDesc": "Simple integration process with comprehensive documentation and support.",
+    "readyToStart": "Ready to Get Started?",
+    "readyToStartDesc": "Sign in to access the Excise OpenAPI portal and begin integrating with our APIs.",
+    "signInNow": "Sign In Now"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "subtitle": "to Excise OpenAPI",
+      "email": "Email Address",
+      "emailOrUsername": "Email or Username",
+      "emailOrUsernamePlaceholder": "Enter your email or username",
+      "password": "Password",
+      "signInBtn": "Sign In",
+      "signingIn": "Signing In...",
+      "demoCredentials": "Demo credentials:",
+      "noChallenge": "No login challenge provided",
+      "failedLoad": "Failed to load login challenge",
+      "failedSignIn": "Login failed. Please try again.",
+      "forgotPassword": "Forgot Password?",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Register here",
+      "passkeyLogin": "Login with Passkey",
+      "passkeyLoggingIn": "Verifying Passkey...",
+      "passkeyNotSupported": "Passkey not supported on this device",
+      "passkeyFailed": "Passkey login failed",
+      "passkeyCancel": "Passkey login was cancelled",
+      "passkeyNotFound": "No passkey found on this device",
+      "orDivider": "or",
+      "thaiDigitalId": "Sign in with Thai Digital ID",
+      "backToLogin": "Back to Sign In"
+    },
+    "accountType": {
+      "subtitle": "Select your account type",
+      "individual": "Individual",
+      "individualDesc": "For personal users who want to access APIs",
+      "organization": "Organization",
+      "organizationDesc": "For companies, government agencies, or businesses",
+      "select": "Select"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join Excise OpenAPI",
+      "nextStep": "Next",
+      "personalInfo": {
+        "title": "Personal Information",
+        "subtitle": "Enter your personal details"
+      },
+      "addressInfo": {
+        "title": "Address Information",
+        "subtitle": "Enter your address details"
+      },
+      "summary": {
+        "title": "Confirm Your Information",
+        "subtitle": "Please review your information before submitting",
+        "location": "Location"
+      },
+      "confirmAndRegister": "Confirm & Register",
+      "passwordRules": {
+        "minLength": "At least 8 characters",
+        "uppercase": "At least 1 uppercase letter (A-Z)",
+        "lowercase": "At least 1 lowercase letter (a-z)",
+        "digit": "At least 1 digit (0-9)",
+        "special": "At least 1 special character (!@#$%^&*)"
+      },
+      "email": "Email Address",
+      "emailValidating": "Email format is being validated...",
+      "emailInvalid": "Invalid email format",
+      "emailDomainInvalid": "Invalid email domain",
+      "username": "Username",
+      "usernameOptional": "Username (Optional)",
+      "usernamePlaceholder": "Username for login",
+      "usernameChecking": "Checking...",
+      "usernameAvailable": "This username is available",
+      "usernameRules": "Username Requirements",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "citizenId": "Citizen ID",
+      "mobile": "Mobile Number",
+      "birthdate": "Date of Birth",
+      "addressSection": "Address",
+      "addressNumber": "Address Number",
+      "addressNumberPlaceholder": "House/Building number",
+      "building": "Building",
+      "buildingPlaceholder": "Building name",
+      "floor": "Floor",
+      "floorPlaceholder": "Floor number",
+      "village": "Village/Project",
+      "soi": "Soi/Lane",
+      "road": "Road",
+      "province": "Province",
+      "provincePlaceholder": "Select province",
+      "district": "District",
+      "districtPlaceholder": "Select district",
+      "subdistrict": "Sub-district",
+      "subdistrictPlaceholder": "Select sub-district",
+      "postalCode": "Postal Code",
+      "selectProvince": "Select Province",
+      "selectDistrict": "Select District",
+      "selectSubdistrict": "Select Sub-district",
+      "postalCodeAutoFill": "Postal code will be auto-filled when you select sub-district",
+      "occupation": "Occupation",
+      "occupationPlaceholder": "Enter your occupation",
+      "selectOccupation": "Select Occupation",
+      "occupationOtherSpecify": "Please specify your occupation",
+      "occupationOtherPlaceholder": "Enter your occupation",
+      "emailVerified": "Email Verified",
+      "backToLogin": "Back to Sign In",
+      "dopaNotice": {
+        "title": "Verify Your National ID Card Information",
+        "description": "Please verify the following information from your national ID card before filling out the form:",
+        "item1": "13-digit Citizen ID number (matches civil registration)",
+        "item2": "12-character Laser Code on the back of the card (alphanumeric, 2 lines)"
+      },
+      "emailVerification": {
+        "title": "Verify Your Email",
+        "subtitle": "We need to verify your email before registration",
+        "sendOTP": "Send OTP",
+        "sending": "Sending...",
+        "resendIn": "Resend in",
+        "resendOTP": "Resend OTP",
+        "otpSent": "OTP sent to",
+        "enterOTP": "Enter 6-digit OTP",
+        "otpExpires": "OTP expires in 5 minutes",
+        "verifyOTP": "Verify OTP",
+        "verifying": "Verifying...",
+        "changeEmail": "Use a different email",
+        "invalidCode": "The verification code is invalid or has expired. Please try again.",
+        "codeExpired": "The verification code has expired. Please request a new code.",
+        "rateLimited": "Please wait {seconds} seconds before requesting a new code"
+      },
+      "termsCheckbox": "I accept the terms and conditions",
+      "termsError": "You must accept the terms and conditions",
+      "registerBtn": "Create Account",
+      "registering": "Creating Account...",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Sign in",
+      "noChallenge": "No registration challenge provided",
+      "failedLoad": "Failed to load registration form",
+      "failedRegister": "Registration failed. Please try again.",
+      "errors": {
+        "passwordTooSimilar": "The password cannot be used because it is too similar to the email",
+        "passwordBreached": "This password has been found in data breaches. Please use a different password",
+        "passwordTooShort": "Password must be at least 8 characters long",
+        "emailExists": "This email is already registered",
+        "invalidEmail": "Invalid email format",
+        "csrfError": "Security error occurred. Please refresh the page and try again",
+        "passwordRequired": "Password is required",
+        "passwordInvalid": "Password does not meet the requirements",
+        "confirmPasswordRequired": "Please confirm your password",
+        "passwordMismatch": "Passwords do not match",
+        "firstNameRequired": "First name is required",
+        "lastNameRequired": "Last name is required",
+        "citizenIdRequired": "Citizen ID is required",
+        "citizenIdInvalid": "Invalid Citizen ID",
+        "mobileRequired": "Mobile number is required",
+        "mobileInvalid": "Mobile number must be 10 digits",
+        "addressRequired": "Address is required",
+        "provinceRequired": "Province is required",
+        "districtRequired": "District is required",
+        "subdistrictRequired": "Sub-district is required",
+        "postalCodeRequired": "Postal code is required",
+        "postalCodeInvalid": "Postal code must be 5 digits",
+        "usernameInvalid": "Invalid username",
+        "usernameExists": "This username is already taken",
+        "usernameRequired": "Username is required"
+      }
+    },
+    "termsDialog": {
+      "title": "Terms and Conditions for User Registration",
+      "titleOrg": "Terms and Conditions for Organization Registration",
+      "subtitle": "Please read and accept the terms before proceeding with registration",
+      "intro": "By registering for the Excise OpenAPI service of the Excise Department, you are indicating your intention to accept all of these Terms and Conditions of Service. Please read the following carefully before proceeding with registration. If you do not accept these Terms and Conditions, please exit the registration process immediately.",
+      "section1": {
+        "title": "1. Acceptance of Terms and Personal Data Protection Policy",
+        "content1": "Use of the Excise Department's internet services shall be subject to these Terms of Use, rules, regulations, procedures, and conditions, including any future amendments. The Excise Department has announced a Personal Data Protection Policy to inform you, as the data subject, and to obtain your consent for the collection, use, or disclosure of such personal data within the scope of the Excise Department's authority and mission.",
+        "content2": "Users will only be able to access the services after successfully completing registration as an internet service user. The Excise Department will implement appropriate security measures to prevent loss, unauthorized access, use, alteration, modification, or disclosure of personal data.",
+        "content3": "The Excise Department reserves the right to refuse or reject registration in certain cases, without prior notice or obligation to provide reasons, if the registration is deemed inconsistent with the intended purposes or may cause damage to the system and security of the Excise Department.",
+        "content4": "In the event of any updates or amendments to the Personal Data Protection Policy and these Terms of Service, the Excise Department will notify you through appropriate communication channels such as the website, email, or system notifications."
+      },
+      "section2": {
+        "title": "2. Personal Data Collection and Sources",
+        "content1": "The Excise Department will collect personal data, which includes any information that can identify you as the data subject, classified into two categories: (1) General personal data such as identification information (national ID number, name, title, address, organization name, phone number, email, gender) and work-related information, and (2) Sensitive data such as biometric data, face scan/recognition, religious information, and blood type appearing on national ID cards.",
+        "content2": "During registration and service usage, Users must provide personal and related information to the Excise Department that is accurate, truthful, and complete, and must keep such information up to date at all times. If any information changes, Users must update such information promptly.",
+        "content3": "The Excise Department may receive personal data directly from you, or from external agencies such as the Office of the Civil Service Commission, Customs Department, Revenue Department, Department of Provincial Administration, other relevant agencies, or from publicly available information.",
+        "content4": "The Excise Department will collect website visit data from all visitors through cookies or similar technologies on the website to provide convenience and better user experience, enable continuous login sessions, and study usage behavior to develop the website for easier, faster, and more efficient use. You can configure or delete cookies yourself through your web browser settings.",
+        "item1": "Full name and accurate contact information",
+        "item2": "National ID number or other acceptable identification",
+        "item3": "Address, phone number, and valid email address",
+        "item4": "Any other information requested by the Excise Department for service purposes"
+      },
+      "section3": {
+        "title": "3. Purposes and Legal Basis for Personal Data Processing",
+        "content1": "The Excise Department will collect, use, or disclose your personal data for the following purposes: (1) Contract performance and contract fulfillment (2) Performance of duties in carrying out tasks for public interest or exercise of official authority vested in the Excise Department (3) Performance of legal obligations to which the Excise Department is subject (4) Legitimate interests of the Excise Department or other persons or juristic persons and (5) Other purposes for which consent has been obtained from the data subject.",
+        "content2": "The Excise Department will not disclose your personal data to external parties except when necessary for operational purposes, to comply with relevant laws, or when consent has been obtained from you. In cases where personal data must be disclosed to external parties, the Excise Department will enter into written agreements with data processors to ensure appropriate protection of personal data.",
+        "content3": "In cases where it is necessary to transfer or transmit personal data to foreign countries, the Excise Department will proceed in accordance with the criteria specified by law, which may consider: (1) The destination country has adequate personal data protection standards (2) Necessity under contract (3) Explicit consent from the data subject (4) Compliance with law or (5) Other reasons as specified by law.",
+        "content4": "Users must maintain the confidentiality of their username, password, API Key, and other authentication credentials, and exercise the highest degree of care to prevent unauthorized access or use by others. The Excise Department shall consider any actions performed through the User's account and password as actions carried out by the User.",
+        "item1": "Not disclosing passwords or credentials to any third party",
+        "item2": "Changing passwords periodically as required by the Excise Department",
+        "item3": "Immediately notifying the Excise Department of any suspected unauthorized account access",
+        "item4": "Accepting responsibility for all actions performed through the user's account"
+      },
+      "section4": {
+        "title": "4. Data Retention Period and Deletion",
+        "content1": "The Excise Department will retain your personal data for the period necessary to achieve the purposes stated in these Terms, or for the period required by law. Generally, the Excise Department will retain personal data for a period of 5 years from the end of service usage, except in cases where law specifies otherwise, or for the purpose of establishing legal claims, compliance with or exercise of legal claims, or defense against legal claims, according to the statute of limitations for lawsuits and execution of judgments.",
+        "content2": "Upon expiration of the retention period, the Excise Department will proceed with appropriate steps to delete or destroy, or make personal data anonymous so that individuals cannot be identified. If the data subject requests deletion of personal data, the Excise Department will consider and proceed within 30 days from the date of receiving the request.",
+        "content3": "The Excise Department reserves the right to suspend service access, restrict account usage, or terminate user accounts immediately without prior notice if the User violates these Terms and Conditions, misuses the service, or engages in conduct that may damage the system, security, or reputation of the Excise Department.",
+        "content4": "The Excise Department reserves the right to delete user accounts that have remained inactive or have not been activated for a period exceeding 30 days from the date of registration, without prior notice, and shall not be liable for any damages arising from such deletion. Deleted accounts cannot be recovered under any circumstances."
+      },
+      "section5": {
+        "title": "5. Data Subject Rights",
+        "content1": "You, as the data subject, have the right to: (1) Right to withdraw consent in cases where consent was given for personal data processing (2) Right of access to your personal data and request copies of such data (3) Right to rectification to ensure accuracy or supplement incomplete personal data (4) Right to erasure of personal data under certain circumstances.",
+        "content2": "(5) Right to restriction of processing under certain circumstances (6) Right to data portability to transfer data provided to the Excise Department to another data controller or to yourself and (7) Right to object to personal data processing under certain circumstances. You can contact Excise Department officials to exercise these rights free of charge.",
+        "content3": "The Excise Department will consider and notify the result within 30 days from the date of receiving the request. In some cases depending on the circumstances, the Excise Department may not be able to proceed as requested, such as when it is necessary to perform duties under contract or law. However, in cases where consent has been given for personal data processing, you may withdraw such consent at any time.",
+        "content4": "If you have questions about the practical details of personal data protection operations, you can study the personal data protection guidelines specified at www.excise.go.th or contact Excise Call Center 1231 or email pdpa@excise.go.th. You also have the right to file complaints regarding non-compliance with personal data protection laws with the Expert Committee as specified in Section 87 of the Personal Data Protection Act B.E. 2562."
+      },
+      "section6": {
+        "title": "6. Personal Data Security Measures",
+        "content1": "The Excise Department implements appropriate security measures for personal data, from limiting access to personal data only to persons with legitimate need-to-know for operational purposes, establishing information security policies, implementing appropriate technologies for data security, data encryption, preventing unauthorized data access, audit log monitoring, and providing training for relevant personnel and staff.",
+        "content2": "The Excise Department has established user management measures such as identity verification before data access, defining access rights according to roles and responsibilities, encrypting user passwords in databases, recording user activities for audit purposes, and periodic review of access rights. Additionally, there are physical controls such as restricting access to data storage areas, installing security systems in data storage locations, and controlling data removal from the organization.",
+        "content3": "Each user account is intended for personal use only and belongs exclusively to the registered account holder. Users are not permitted to transfer, lend, share, or allow any third party to use the account under any circumstances. If such actions are detected, the Excise Department reserves the right to immediately suspend or terminate the account without prior notice.",
+        "content4": "In cases where the Excise Department engages other persons or juristic persons as data processors, the Excise Department will enter into written agreements with essential provisions that processors must act only according to the Excise Department's instructions, implement appropriate security measures, notify the Excise Department of personal data breaches without delay, and not use or disclose personal data for purposes other than those specified in the agreement."
+      },
+      "section7": {
+        "title": "7. Personal Data Breach Management",
+        "content1": "In the event of a personal data breach, the Excise Department will proceed with clear and timely processes to ensure maximum protection of your personal data. The first step will be to investigate the breach upon discovery of any incident that may cause personal data leakage or unauthorized access, followed by risk assessment of the impact on your rights as the data subject.",
+        "content2": "If the incident is found to have high impact on the data subject, the Excise Department will notify the Personal Data Protection Committee Office (PDPC) within 72 hours as required by law to ensure compliance with the Personal Data Protection Act. After notification, if the breach poses high risk, you will be promptly notified along with recommendations for preventing impacts from the incident.",
+        "content3": "In all cases, when a personal data breach occurs, the Excise Department will record the incident in a Logbook or electronic system that can be audited to ensure remedial actions can be tracked and verified subsequently. The Excise Department will investigate to identify the cause of the breach and implement preventive measures to prevent recurrence of similar incidents.",
+        "content4": "You have a duty to immediately notify the Excise Department if you suspect unauthorized access to your account or personal data, or if you detect any abnormal behavior that may affect the security of personal data. Prompt notification will help the Excise Department prevent and resolve issues in a timely manner."
+      },
+      "section8": {
+        "title": "8. For Organizations",
+        "content1": "The registrant must have authority to act on behalf of the registered organization and must provide evidence of such authority to the Excise Department upon request, which may include power of attorney, certification letters, or documents showing position and responsibilities in the organization.",
+        "content2": "The organization shall be responsible for all actions of personnel and users associated with the organizational account, including API Key usage, data access, and any operations through the Excise OpenAPI system. The organization must implement appropriate internal controls to ensure that personnel and users strictly comply with these Terms and Conditions.",
+        "content3": "In cases where there are changes in authorized signatories or primary responsible persons of the organization, the organization must notify the Excise Department within 7 days from the date of change, along with submitting relevant supporting documents.",
+        "content4": "The organization must appropriately control and manage API Keys, not disclose or share API Keys with external parties or other organizations, and must immediately notify the Excise Department if API Keys are found to be disclosed or used without authorization."
+      },
+      "finalSection": {
+        "title": "9. Contact Information and Data Controller Details",
+        "content1": "Data Controller: Excise Department. Contact Address: 1448 Nakhon Chai Si Road, Thanon Nakhon Chai Si, Khlong San, Bangkok 10300. Phone: Excise Call Center 1231, 02-2821-5600-19. Email: pdpa@excise.go.th. Website: www.excise.go.th",
+        "content2": "Data Protection Officer (DPO): Director of Information Technology Center, Excise Department. Contact Address: Same as above. Phone: 02-2821-5600-19 ext. 24107. Email: pdpa@excise.go.th. If you have questions, complaints, or wish to exercise data subject rights, you can contact through the above channels.",
+        "content3": "Amendments to Terms: The Excise Department reserves the right to test and update this policy as deemed appropriate, with notification to users via the website or the email address provided. Continued use of the service after amendments to these Terms and Conditions constitutes acceptance of such amendments.",
+        "content4": "External Website Links: This Personal Data Protection Policy applies only to the use of the Excise Department's website. If there are links to other websites (even through channels on the Excise Department's website), users must study and comply with the personal data protection policy appearing on those respective websites."
+      },
+      "effectiveDate": "These Terms and Conditions are effective from December 23, 2025",
+      "agreeText": "I have read, understood, and agreed to the above terms and conditions for registration as an internet service user of the Excise Department in their entirety.",
+      "agreeTextOrg": "I have read, understood, and agreed to the above terms and conditions for organization registration to use the Excise Department's API services in their entirety.",
+      "noticeText": "By registering for Excise OpenAPI, you agree to accept our full Terms and Conditions. Please read the complete document before proceeding.",
+      "readFullTerms": "Read Full Terms and Conditions (opens in new window)",
+      "keySummaryTitle": "Key Points Summary",
+      "keyPoint1": "Acceptance of Terms:",
+      "keyPoint1Desc": "Registration means you accept all our Terms and Conditions",
+      "keyPoint2": "Personal Data:",
+      "keyPoint2Desc": "The Excise Department will collect and process your personal data in accordance with the PDPA B.E. 2562 (2019)",
+      "keyPoint3": "Responsibilities:",
+      "keyPoint3Desc": "You are responsible for maintaining the security of your account and API access credentials",
+      "keyPoint4": "Acceptable Use:",
+      "keyPoint4Desc": "You must use the service for legitimate purposes and comply with all applicable laws",
+      "keyPoint5": "Limitation of Liability:",
+      "keyPoint5Desc": "The Excise Department provides services \"as is\" and limits liability as permitted by law",
+      "keyPoint6Org": "For Organizations:",
+      "keyPoint6OrgDesc": "The registrant must have the authority to act on behalf of the organization",
+      "agreeText": "I have read and understood the",
+      "termsLink": "Terms and Conditions",
+      "and": "and",
+      "privacyLink": "Privacy Policy",
+      "agreeEnd": ", and I agree to be bound by them",
+      "agreeCheckbox": "I have read, understood, and agreed to the above terms and conditions for registration as an internet service user of the Excise Department in their entirety.",
+      "acceptButton": "Accept",
+      "cancelButton": "Cancel",
+      "heading": "Terms and Conditions for User Registration",
+      "section1": "1. The use of the Excise Department's internet services shall be subject to its terms of use, rules, procedures, and conditions, including any future amendments. Access to the services shall only be granted after successful registration as an internet service user (hereinafter referred to as the \"User\"). The Excise Department reserves the right to refuse or reject any registration application in certain cases, without prior notice or the obligation to provide reasons.",
+      "section2": "2. In the course of registration and service usage, the User must provide personal and related information that is true, accurate, and complete. The User is responsible for keeping such information up to date at all times. If false, inaccurate, or incomplete information is provided, the Excise Department reserves the right to suspend or terminate the User's account as deemed appropriate.",
+      "section3": "3. Where the User is required to create a username and password for accessing the services, the User shall be responsible for maintaining the confidentiality of such credentials and shall exercise the highest degree of care to prevent unauthorized access or misuse. The Excise Department shall consider any actions performed through the User's account and password as actions carried out by the User, unless it can be proven that such actions resulted from a failure of the Excise Department's system.",
+      "section4": "4. The Excise Department reserves the right to suspend access to the service, temporarily restrict access to the account, or terminate the User's account without prior notice if the User is found to have violated or failed to comply with these terms and conditions, or if the User's actions may cause damage to the system, security, or the reputation of the Excise Department.",
+      "section5": "5. The Excise Department reserves the right to delete any User account that has remained inactive or has not been activated for a period exceeding 30 days from the date of registration, without prior notice, and shall not be responsible for any damages arising from such deletion.",
+      "section6": "6. The User's right to access and use the service shall immediately terminate upon deletion or termination of the User account for any reason whatsoever. In all cases, deleted accounts cannot be recovered, even if such deletion was unintentional or resulted from the User's own action or error. The User acknowledges and accepts this condition.",
+      "section7": "7. Each User account is intended for personal use only and belongs exclusively to the registered account holder. The User is not permitted to transfer, lend, share, or allow any third party to use the account under any circumstances. No third party may assume or take over the User account. If such actions are detected, the Excise Department reserves the right to immediately suspend or terminate the account without prior notice.",
+      "userAcknowledgment": "User Acknowledgment"
+    },
+    "orgTermsDialog": {
+      "title": "Terms and Conditions for Organization Registration",
+      "agreeCheckbox": "I have read, understood, and agreed to the above terms and conditions for organization registration to use the Excise Department's API services in their entirety.",
+      "acceptButton": "Accept",
+      "cancelButton": "Cancel",
+      "section1": "The registration of organizations to use the Excise Department's API services shall be subject to its terms of use, rules, regulations, procedures, and conditions as determined by the Excise Department, including any future amendments. Access to the services shall only be granted after successful registration and approval by the Excise Department. The Department reserves the right to refuse or reject any registration application without prior notice or the obligation to provide reasons. In this regard, the Excise Department, as the Data Controller under the Personal Data Protection Act B.E. 2562, has a duty to comply with the criteria regarding the collection, use, or disclosure of personal data as stipulated by law.",
+      "section2": "The organization must provide information that is true, accurate, and complete, including official organization registration documents, legal entity information, designated contact person details with authority to act on behalf of the organization, and other supporting documents as required by the Excise Department. The organization is responsible for keeping such information up to date at all times and must promptly notify the Excise Department of any changes to the organization's information, including changes in the designated contact person. If false, inaccurate, or incomplete information is provided, or if the contact person lacks proper authority, the Excise Department reserves the right to suspend, revoke, or terminate access immediately as deemed appropriate. The organization shall be liable for any damages arising from the provision of false or inaccurate information or from actions by unauthorized persons.",
+      "section3": "The designated contact person shall be responsible for maintaining the confidentiality and security of all credentials, including API Key, Client ID, Client Secret, and other authentication credentials, and shall exercise the highest degree of care to prevent loss, unauthorized access, use, modification, alteration, or disclosure. The organization must implement appropriate security measures in accordance with Article 37 of the Personal Data Protection Act B.E. 2562, which may include organizational measures, technical measures, and necessary physical measures. The organization shall be fully liable for any actions performed through its account, whether by the designated contact person, personnel, or any third party to whom access has been delegated.",
+      "section4": "The Excise Department reserves the right to suspend or terminate access to API services immediately without prior notice if the organization is found to have violated these terms and conditions, the API usage policy, applicable laws or regulations, engaged in fraudulent activities, used the services for illegal purposes, or if the organization's actions may cause damage to the system, data security, privacy rights of data subjects, or reputation of the Excise Department. In such cases, the organization shall be liable for all damages arising from such violations. The Excise Department also reserves the right to pursue legal action and seek compensation for any damages incurred as a result of such violations.",
+      "section5": "The organization shall use the API services only for the lawful purposes stated in the registration application and in accordance with the scope of use specified by the Excise Department. Any use beyond the stated purposes, use for commercial purposes different from those declared, or provision of services to third parties based on API data requires prior written approval from the Excise Department. The organization must not use the API services for illegal purposes, activities that infringe upon the rights of others, activities that violate public morals, or activities that may damage the reputation or credibility of the Excise Department. The organization must comply with usage limitations, rate limits, and access quotas as determined by the Excise Department for each API service and must not attempt to circumvent or bypass such limitations.",
+      "section6": "The organization agrees to strictly comply with all applicable laws and regulations regarding data protection, privacy, and information security when using the API services, including but not limited to the Personal Data Protection Act B.E. 2562, the Computer Crime Act, and the Cybersecurity Act. If the organization acts as a Data Processor or Data Controller of personal data obtained through the API services, the organization must implement appropriate security measures, establish clear procedures for handling personal data, and comply with data subjects' rights as required by law. The organization must not use personal data obtained through the API services for purposes other than those permitted by law without proper legal basis or consent from the data subjects.",
+      "section7": "The organization shall not transfer, sell, sublicense, lease, or allow any unauthorized third party to use the API credentials or services without prior written approval from the Excise Department. The organization must ensure that only authorized personnel with legitimate need-to-know have access to the credentials. The organization shall immediately notify the Excise Department within 72 hours of becoming aware of any suspected unauthorized access, security breaches, data breaches, loss of credentials, or any incidents that may affect the confidentiality, integrity, or availability of data or services. Such notification must include details of the incident, the scope of impact, preliminary cause analysis, and immediate remedial actions taken. The organization must cooperate fully with the Excise Department in investigating and resolving any security incidents and must implement corrective and preventive measures as recommended by the Department.",
+      "userAcknowledgment": ""
+    },
+    "orgRegister": {
+      "back": "Back",
+      "next": "Next",
+      "submit": "Submit Request",
+      "submitting": "Submitting...",
+      "steps": {
+        "terms": "Terms & Conditions",
+        "emailVerify": "Email Verification",
+        "orgInfo": "Organization Info",
+        "contactPerson": "Contact Person",
+        "purposes": "Service Purposes",
+        "documents": "Documents",
+        "summary": "Summary",
+        "complete": "Complete"
+      },
+      "orgTypes": {
+        "company": "Company Limited / Public Company",
+        "partnership": "Partnership / Limited Partnership",
+        "government": "Government Agency",
+        "stateEnterprise": "State Enterprise",
+        "association": "Association / Foundation",
+        "other": "Other"
+      },
+      "dbdNotice": {
+        "title": "Verify with Department of Business Development",
+        "description": "Please verify your organization information from the DBD DataWarehouse system before filling out the form to ensure accuracy with official records",
+        "link": "Open DBD DataWarehouse"
+      },
+      "orgInfo": {
+        "title": "Organization Information",
+        "subtitle": "Enter your organization details",
+        "organizationType": "Organization Type",
+        "selectType": "Select organization type",
+        "organizationName": "Organization Name",
+        "organizationNamePlaceholder": "Enter organization name",
+        "taxId": "Tax ID / Juristic Person ID",
+        "taxIdPlaceholder": "13-digit Tax ID",
+        "addressSection": "Organization Address",
+        "address": "Address Number",
+        "addressPlaceholder": "House/Building number",
+        "building": "Building",
+        "buildingPlaceholder": "Building name",
+        "floor": "Floor",
+        "floorPlaceholder": "Floor number",
+        "village": "Village/Project",
+        "soi": "Soi/Lane",
+        "road": "Road",
+        "province": "Province",
+        "provincePlaceholder": "Select province",
+        "district": "District",
+        "districtPlaceholder": "Select district",
+        "subdistrict": "Sub-district",
+        "subdistrictPlaceholder": "Select sub-district",
+        "postalCode": "Postal Code",
+        "contactSection": "Contact Information",
+        "phone": "Phone Number",
+        "fax": "Fax Number",
+        "website": "Website"
+      },
+      "contactPerson": {
+        "title": "Contact Person",
+        "subtitle": "Information of the responsible person for this registration",
+        "titleField": "Title",
+        "selectTitle": "Select title",
+        "titles": {
+          "mr": "Mr.",
+          "mrs": "Mrs.",
+          "miss": "Miss",
+          "other": "Other"
+        },
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "position": "Position",
+        "positionPlaceholder": "e.g., IT Manager, Developer",
+        "email": "Email",
+        "emailVerified": "This email has been verified",
+        "phone": "Phone Number",
+        "mobile": "Mobile Number",
+        "passwordSection": "Set Password",
+        "passwordRequirements": "Password requirements",
+        "passwordMin8": "At least 8 characters",
+        "passwordUppercase": "At least 1 uppercase letter (A-Z)",
+        "passwordLowercase": "At least 1 lowercase letter (a-z)",
+        "passwordDigit": "At least 1 digit (0-9)",
+        "passwordSpecial": "At least 1 special character (!@#$%^&*)"
+      },
+      "purposes": {
+        "title": "Service Purposes",
+        "subtitle": "Select the purposes for using the API services",
+        "selectPurposes": "Select service purposes",
+        "taxCalculation": "Tax Calculation and Verification",
+        "licenseCheck": "License Status Verification",
+        "productInfo": "Product Information Inquiry",
+        "reportSubmission": "Report Submission",
+        "dataIntegration": "Data Integration with Internal Systems",
+        "other": "Other",
+        "specifyOther": "Please specify",
+        "otherPlaceholder": "Describe your purpose for using the API services"
+      },
+      "documents": {
+        "title": "Document Upload",
+        "subtitle": "Upload required documents for verification",
+        "fileRequirements": "Accepted file formats: PDF, JPG, PNG (max 1MB per file)",
+        "orgCertificate": "Organization Certificate",
+        "orgCertificateDesc": "Certificate of Incorporation or equivalent document",
+        "authorizedLetter": "Authorization Letter",
+        "authorizedLetterDesc": "Letter authorizing the contact person to act on behalf of the organization",
+        "idCard": "Contact Person ID Card",
+        "idCardDesc": "Copy of ID card of the contact person",
+        "other": "Other Supporting Documents",
+        "otherDesc": "Any additional documents (optional)",
+        "selectFile": "Click to select file",
+        "removeFile": "Remove file"
+      },
+      "summary": {
+        "title": "Confirm Your Information",
+        "subtitle": "Please review all information before submitting",
+        "location": "Location",
+        "fullName": "Full Name"
+      },
+      "confirmAndSubmit": "Confirm & Submit",
+      "success": {
+        "title": "Request Submitted Successfully",
+        "description": "Your organization registration request has been submitted and is pending review by our team.",
+        "requestNumber": "Request Number",
+        "step1": "Your request is now being reviewed by our team",
+        "step2": "You will receive an email notification once the review is complete",
+        "step3": "After approval, you can log in using the email and password you registered",
+        "backToLogin": "Back to Sign In"
+      },
+      "errors": {
+        "required": "This field is required",
+        "invalidTaxId": "Tax ID must be 13 digits",
+        "invalidMobile": "Mobile number must be 10 digits",
+        "passwordInvalid": "Password does not meet the requirements",
+        "passwordMismatch": "Passwords do not match",
+        "selectPurpose": "Please select at least one purpose",
+        "specifyOther": "Please specify your purpose",
+        "documentRequired": "This document is required",
+        "fileTooLarge": "File size exceeds 1MB limit"
+      }
+    },
+    "verify": {
+      "emailVerification": "Email Verification",
+      "verifyEmailTitle": "Verify Your Email",
+      "verifyEmailDesc": "We've sent a verification link to your email. Please click the link to verify your email address.",
+      "didNotReceive": "Didn't receive the email?",
+      "resendEmail": "Resend verification email",
+      "checkInbox": "Check your inbox and spam folder",
+      "emailVerified": "Email verified successfully! You can now sign in.",
+      "verificationPending": "Please verify your email before signing in",
+      "cannotLogin": "Cannot log in until email is verified",
+      "resendSuccess": "Verification email sent. Please check your inbox.",
+      "resendError": "Failed to resend verification email. Please try again.",
+      "backToLogin": "Back to Sign In"
+    },
+    "emailOtp": {
+      "title": "Enter OTP Code",
+      "subtitle": "Email Verification",
+      "enterOtp": "OTP Code",
+      "otpSentTo": "OTP sent to",
+      "otpExpires": "Code expires in 5 minutes",
+      "resendOtp": "Resend OTP",
+      "verifyBtn": "Verify",
+      "verifying": "Verifying...",
+      "noOtpSession": "No OTP session found",
+      "otpExpired": "OTP has expired",
+      "otpInvalid": "Invalid OTP code"
+    },
+    "consent": {
+      "title": "Request Authorization",
+      "requestAuth": "Request Authorization",
+      "requestingAccess": "is requesting access to your account.",
+      "permissionsRequested": "Permissions Requested",
+      "allow": "Allow",
+      "deny": "Deny",
+      "noChallenge": "No consent challenge provided",
+      "loadError": "Failed to load consent request",
+      "invalidRequest": "Invalid consent request",
+      "acceptError": "Failed to process consent. Please try again.",
+      "denyError": "Failed to process denial. Please try again.",
+      "userDenied": "User denied the consent request"
+    },
+    "logout": {
+      "title": "Sign Out",
+      "subtitle": "from Excise OpenAPI",
+      "confirmation": "Are you sure you want to sign out from Excise OpenAPI? You will need to sign in again to access your account.",
+      "signOut": "Sign Out",
+      "signingOut": "Signing Out...",
+      "noChallenge": "No logout challenge provided",
+      "loadError": "Failed to load logout request",
+      "logoutError": "Logout failed. Please try again."
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "subtitle": "Enter your email to reset your password",
+      "email": "Email Address",
+      "sendReset": "Send Reset Link",
+      "sending": "Sending...",
+      "emailSent": "Check Your Email",
+      "checkEmail": "We've sent a password reset link to your email.",
+      "checkInbox": "Check your inbox and spam folder",
+      "sentTo": "Email sent to:",
+      "followLink": "Click the link in the email to reset your password. The link will expire in 24 hours.",
+      "backToLogin": "Back to Sign In",
+      "rememberPassword": "Remember your password?",
+      "loginLink": "Sign in here",
+      "emailInvalid": "Please enter a valid email address",
+      "failedSend": "Failed to send reset email. Please try again.",
+      "didNotReceive": "Didn't receive the email?",
+      "tryAgain": "Try again",
+      "sendOtpCode": "Send OTP Code",
+      "resetPasswordTitle": "Reset Password",
+      "resetPasswordSubtitle": "Enter the OTP code and your new password",
+      "otpCode": "OTP Code",
+      "otpPlaceholder": "Enter 6-digit code",
+      "otpSentTo": "OTP code sent to",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Min. 8 characters",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter password",
+      "resetPassword": "Reset Password",
+      "backToEmail": "Back to email",
+      "captchaRequired": "Please complete the security check",
+      "captchaFailed": "Security check failed. Please refresh the page.",
+      "otpInvalid": "OTP code must be 6 digits",
+      "passwordsMismatch": "Passwords do not match",
+      "passwordTooShort": "Password must be at least 8 characters",
+      "failedReset": "Failed to reset password"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "subtitle": "Create a new password for your account",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "resetPassword": "Reset Password",
+      "resetting": "Resetting...",
+      "resetSuccess": "Password Reset Successfully",
+      "canNowLogin": "Your password has been reset. You can now sign in with your new password.",
+      "backToLogin": "Back to Sign In",
+      "invalidFlow": "Invalid or expired reset link. Please request a new password reset.",
+      "noFlowError": "No reset link provided",
+      "fieldsRequired": "Please fill in all fields",
+      "passwordInvalid": "Password does not meet the requirements",
+      "passwordsMismatch": "Passwords do not match",
+      "failedReset": "Failed to reset password. Please try again.",
+      "rememberPassword": "Remember your password?",
+      "loginLink": "Sign in here"
+    },
+    "callback": {
+      "processing": "Processing authorization...",
+      "exchangingToken": "Exchanging authorization code...",
+      "success": "Authorization successful!",
+      "redirecting": "Redirecting to dashboard...",
+      "error": "Authorization error",
+      "noCode": "No authorization code received",
+      "unknownError": "Unknown error",
+      "returnHome": "Return to Home"
+    },
+    "totp": {
+      "title": "Enable Two-Factor Authentication",
+      "subtitle": "Secure your account with TOTP",
+      "description": "Two-factor authentication (2FA) adds an extra layer of security to your account by requiring a code from your authenticator app in addition to your password.",
+      "enrollButton": "Enable TOTP 2FA",
+      "settings": {
+        "title": "Set Up TOTP 2FA",
+        "qrCodeLabel": "Scan with authenticator app",
+        "qrCodeDescription": "Use your authenticator app (Google Authenticator, Microsoft Authenticator, Authy, etc.) to scan this QR code.",
+        "manualEntryLabel": "Or enter manually:",
+        "manualEntryDescription": "If you can't scan the QR code, enter this key manually in your authenticator app:",
+        "codeInputLabel": "Enter 6-digit code",
+        "codePlaceholder": "000000",
+        "confirmButton": "Confirm TOTP",
+        "confirmingButton": "Confirming...",
+        "recoveryCodesLabel": "Recovery Codes",
+        "recoveryCodesDescription": "Save these recovery codes in a safe place. You can use them to access your account if you lose access to your authenticator device.",
+        "recoveryCodesWarning": "Save these codes now. You won't be able to see them again.",
+        "successMessage": "TOTP 2FA has been enabled successfully",
+        "successDescription": "Your account is now protected with two-factor authentication.",
+        "continueButton": "Continue to Dashboard",
+        "loadingMessage": "Loading TOTP setup...",
+        "errorMessage": "Failed to set up TOTP. Please try again."
+      },
+      "login": {
+        "challenge": "Two-Factor Authentication Required",
+        "description": "Enter the 6-digit code from your authenticator app to complete login.",
+        "codeLabel": "Authenticator Code",
+        "codePlaceholder": "000000",
+        "verifyButton": "Verify",
+        "verifyingButton": "Verifying...",
+        "invalidCode": "Invalid authenticator code. Please try again.",
+        "expiredCode": "Code has expired. Please use a new code from your authenticator app.",
+        "recoveryCodeLabel": "Or enter a recovery code",
+        "recoveryCodeHint": "If you don't have access to your authenticator, enter one of your recovery codes instead."
+      },
+      "settings": {
+        "disableButton": "Disable TOTP 2FA",
+        "disableConfirmation": "Are you sure you want to disable TOTP 2FA? This will make your account less secure.",
+        "disableConfirmButton": "Yes, disable TOTP",
+        "enabledStatus": "Enabled",
+        "disabledStatus": "Not enabled",
+        "setupDate": "Enabled on {date}",
+        "manageCodesButton": "View Recovery Codes",
+        "generateNewCodesButton": "Generate New Recovery Codes"
+      },
+      "audit": {
+        "enrolledEvent": "TOTP enrollment successful",
+        "enrollFailedEvent": "TOTP enrollment failed",
+        "challengeSuccessEvent": "TOTP challenge verified",
+        "challengeFailedEvent": "TOTP challenge failed",
+        "disabledEvent": "TOTP disabled",
+        "codesGeneratedEvent": "Recovery codes generated"
+      }
+    }
+  },
+  "scopes": {
+    "openid": "OpenID Connect",
+    "profile": "Profile Information",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "address": "Address",
+    "offline_access": "Offline Access"
+  },
+  "settings": {
+    "mfa": {
+      "twoFactorAuth": "Multi-Factor Authentication (MFA)",
+      "enterCodeFromApp": "Enter the 6-digit authentication code from your Authenticator App",
+      "invalidCode": "The code entered is invalid. Please verify and try again.",
+      "verifyCode": "Verify",
+      "orUseRecovery": "Or use a Recovery Code",
+      "useRecoveryCode": "Use Recovery Code",
+      "verifyError": "Authentication failed. Please verify your code and try again."
+    }
+  },
+  "devices": {
+    "title": "Devices & Security",
+    "subtitle": "View and manage devices logged into your account",
+    "currentDeviceBadge": "Current device",
+    "activeDevices": "Active devices",
+    "activeDevicesCount": "You are currently logged in on {count} device",
+    "activeDevicesCountPlural": "You are currently logged in on {count} devices",
+    "emptyState": "You are only logged in on this device",
+    "tableHeaders": {
+      "device": "Device",
+      "ipAddress": "IP Address",
+      "firstSeen": "First Seen",
+      "lastActive": "Last Active",
+      "actions": "Actions"
+    },
+    "removeButton": "Remove",
+    "removeConfirmTitle": "Remove device?",
+    "removeConfirmMessage": "This will sign this device out of your account.",
+    "removeCancel": "Cancel",
+    "removeConfirm": "Remove",
+    "removeSuccess": "Device removed successfully",
+    "removeFailed": "Failed to remove device",
+    "oldSessionWarning": "Inactive for 30+ days",
+    "veryOldSessionWarning": "Inactive for 90+ days",
+    "loadError": "Failed to load devices"
+  },
+  "profile": {
+    "title": "Manage Profile",
+    "subtitle": "Update your account information and security settings",
+    "profileSection": "Profile Information",
+    "profileDescription": "Update your personal information and contact details",
+    "email": "Email Address",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "mobile": "Mobile Number",
+    "mobileFormat": "Format: +66XXXXXXXXX",
+    "citizenId": "Citizen ID",
+    "citizenIdReadOnly": "Your Citizen ID cannot be changed",
+    "updateButton": "Save Changes",
+    "updateSuccess": "Profile updated successfully",
+    "updateFailed": "Failed to update profile",
+    "emailInvalid": "Please enter a valid email address",
+    "securitySection": "Security",
+    "securityDescription": "Change your password to keep your account secure",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "changePasswordButton": "Change Password",
+    "passwordChangeSuccess": "Password changed successfully",
+    "passwordChangeFailed": "Failed to change password",
+    "currentPasswordRequired": "Please enter your current password",
+    "passwordInvalid": "Password does not meet the requirements",
+    "passwordsMismatch": "Passwords do not match",
+    "loadError": "Failed to load profile information"
+  },
+  "footer": {
+    "exciseHub": "Excise OpenAPI",
+    "official": "Official Excise Government Open API Platform",
+    "documentation": "Documentation",
+    "apiDocs": "API Docs",
+    "gettingStarted": "Getting Started",
+    "support": "Support",
+    "contactUs": "Contact Us",
+    "statusPage": "Status Page",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "cookieSettings": "Cookie Settings",
+    "copyright": "All rights reserved."
+  },
+  "contextSwitcher": {
+    "individual": "Personal Account",
+    "organization": "Organization",
+    "personalAccount": "Your personal account"
+  },
+  "dashboard": {
+    "sidebar": {
+      "collapse": "Collapse",
+      "expand": "Expand"
+    },
+    "portal": {
+      "individual": "Individual Portal",
+      "organization": "Organization Portal",
+      "platformAdmin": "Platform Admin"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "myServices": "My Services",
+      "myRequests": "My Requests",
+      "notifications": "Notifications",
+      "profile": "Profile",
+      "security": "Security",
+      "help": "Help",
+      "signOut": "Sign Out",
+      "servicesApis": "Services & APIs",
+      "credentials": "Credentials",
+      "usage": "Usage",
+      "team": "Team",
+      "requests": "Requests",
+      "settings": "Settings",
+      "userAccess": "User & Access",
+      "users": "Users",
+      "rolesPermissions": "Roles & Permissions",
+      "activeSessions": "Active Sessions",
+      "apiGateway": "API Gateway",
+      "serviceRegistry": "Service Registry",
+      "versionControl": "Version Control",
+      "apiRoutes": "API Routes",
+      "rateLimiting": "Rate Limiting",
+      "consumers": "Consumers",
+      "clientApplications": "Client Applications",
+      "apiCredentials": "API Credentials",
+      "subscriptions": "Subscriptions",
+      "workflow": "Workflow",
+      "pendingApprovals": "Pending Approvals",
+      "accessRequests": "Access Requests",
+      "workflowHistory": "Workflow History",
+      "policiesSecurity": "Policies & Security",
+      "policyManagement": "Policy Management",
+      "policySimulator": "Policy Simulator",
+      "securityRules": "Security Rules",
+      "observability": "Observability",
+      "auditLogs": "Audit Logs",
+      "apiAnalytics": "API Analytics",
+      "systemMetrics": "System Metrics",
+      "alertsIncidents": "Alerts & Incidents",
+      "system": "System",
+      "platformSettings": "Platform Settings",
+      "externalIntegrations": "External Integrations",
+      "maintenanceMode": "Maintenance Mode"
+    },
+    "header": {
+      "search": "Search...",
+      "notifications": "Notifications",
+      "settings": "Settings"
+    },
+    "common": {
+      "viewAll": "View All",
+      "edit": "Edit",
+      "delete": "Delete",
+      "add": "Add",
+      "save": "Save",
+      "cancel": "Cancel",
+      "export": "Export",
+      "filter": "Filter",
+      "status": "Status",
+      "actions": "Actions",
+      "active": "Active",
+      "inactive": "Inactive",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "enabled": "Enabled",
+      "disabled": "Disabled"
+    },
+    "pages": {
+      "individual": {
+        "dashboard": {
+          "title": "Dashboard",
+          "description": "Welcome back! Here's an overview of your activities.",
+          "welcomeBack": "Welcome back",
+          "activeServices": "Active Services",
+          "totalRequests": "Total Requests",
+          "approved": "Approved",
+          "pending": "Pending",
+          "thisMonth": "+2 this month",
+          "thisWeek": "+5 this week",
+          "approvalRate": "87.5% approval rate",
+          "awaitingReview": "Awaiting review",
+          "pendingRequests": "Pending Requests",
+          "recentActivity": "Recent Activity",
+          "recentActivityDesc": "Your latest activities and updates",
+          "quickActions": "Quick Actions",
+          "gettingStartedTitle": "Service Guide",
+          "gettingStartedDesc": "Learn how to use Excise OpenAPI for individuals",
+          "newRequest": "New Request",
+          "newRequestDesc": "Submit a new service request",
+          "trackRequest": "Track Request",
+          "trackRequestDesc": "Check status of your requests",
+          "getHelp": "Get Help",
+          "getHelpDesc": "Browse FAQs and guides",
+          "notifications": "Notifications",
+          "notificationsDesc": "View recent updates",
+          "requestActivity": "Request Activity",
+          "requestActivityDesc": "Your requests over the past 12 months",
+          "requestStatus": "Request Status",
+          "requestStatusDesc": "Distribution of your request statuses",
+          "requestApproved": "Request Approved",
+          "requestApprovedDesc": "Your request #REQ-2024-001 has been approved",
+          "newRequestSubmitted": "New Request Submitted",
+          "newRequestSubmittedDesc": "Request #REQ-2024-002 submitted for review",
+          "serviceActivated": "Service Activated",
+          "serviceActivatedDesc": "Tax Filing Service is now active",
+          "systemNotification": "System Notification",
+          "systemNotificationDesc": "Scheduled maintenance on Dec 15, 2024",
+          "hoursAgo": "hours ago",
+          "dayAgo": "day ago",
+          "daysAgo": "days ago"
+        },
+        "services": {
+          "title": "My Services",
+          "description": "Services you have subscribed to"
+        },
+        "requests": {
+          "title": "My Requests",
+          "description": "Track your service requests"
+        },
+        "notifications": {
+          "title": "Notifications",
+          "description": "Your notifications and alerts"
+        },
+        "profile": {
+          "title": "Profile",
+          "description": "Manage your account information"
+        },
+        "security": {
+          "title": "Security",
+          "description": "Security settings and login activity"
+        },
+        "help": {
+          "title": "Help & Support",
+          "description": "Get help and contact support"
+        },
+        "settings": {
+          "title": "Settings",
+          "description": "Manage your account settings",
+          "tabs": {
+            "account": "Account",
+            "password": "Password",
+            "mfa": "MFA",
+            "sessions": "Sessions",
+            "preferences": "Preferences"
+          },
+          "account": {
+            "title": "Account Settings",
+            "avatar": "Profile Photo",
+            "avatarDesc": "Upload your profile picture",
+            "uploadAvatar": "Upload new avatar",
+            "removeAvatar": "Remove",
+            "avatarHint": "JPG, PNG or GIF. Max 150KB.",
+            "avatarTooLarge": "File size must be less than 150KB",
+            "avatarInvalidType": "Only JPG, PNG or GIF files are allowed",
+            "contactInfo": "Contact Information",
+            "contactInfoDesc": "Manage your email and phone number",
+            "profileInfo": "Profile Information",
+            "profileInfoDesc": "Your public display information",
+            "email": "Email Address",
+            "phone": "Phone Number",
+            "displayName": "Display Name",
+            "verified": "Verified",
+            "notVerified": "Not verified",
+            "notSet": "Not set",
+            "edit": "Edit",
+            "add": "Add",
+            "dangerZone": "Delete Account",
+            "dangerZoneDesc": "Once you delete your account, there is no going back. All your data will be permanently removed.",
+            "deleteAccount": "Delete my account",
+            "loading": "Loading...",
+            "editDisplayName": "Edit Display Name",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "enterFirstName": "Enter first name",
+            "enterLastName": "Enter last name",
+            "save": "Save",
+            "cancel": "Cancel",
+            "changePhone": "Change Phone Number",
+            "currentPhone": "Current phone",
+            "newPhone": "New phone number",
+            "enterNewPhone": "Enter new phone number (10 digits)",
+            "phoneMustDiffer": "New phone must be different from current phone",
+            "confirmWithPassword": "Confirm with password",
+            "enterCurrentPassword": "Enter current password",
+            "verificationSentPhone": "Verification code sent to {phone}",
+            "sendOtp": "Send OTP",
+            "close": "Close",
+            "changeEmail": "Change Email",
+            "currentEmail": "Current email",
+            "newEmail": "New email",
+            "enterNewEmail": "Enter new email",
+            "emailMustDiffer": "New email must be different from current email",
+            "verificationSentEmail": "Verification email sent to {email}",
+            "sendVerification": "Send Verification"
+          },
+          "password": {
+            "title": "Change Password",
+            "description": "Update your password to keep your account secure",
+            "currentPassword": "Current Password",
+            "newPassword": "New Password",
+            "confirmPassword": "Confirm New Password",
+            "requirements": "Password requirements:",
+            "minLength": "At least 8 characters",
+            "uppercase": "Contains uppercase letter",
+            "lowercase": "Contains lowercase letter",
+            "number": "Contains number",
+            "special": "Contains special character",
+            "updateButton": "Update Password",
+            "cancelButton": "Cancel",
+            "dismiss": "Dismiss",
+            "passwordMismatch": "Passwords do not match",
+            "signOutOtherDevices": "Sign out from all other devices",
+            "signOutOtherDevicesWarning": "Recommended if you suspect unauthorized access to your account",
+            "changeSuccess": "Password changed successfully",
+            "changeSuccessWithRevoked": "Password changed successfully (revoked {count} other sessions)",
+            "errors": {
+              "currentIncorrect": "Current password is incorrect",
+              "sessionExpired": "Session expired. Please log in again.",
+              "tooManyAttempts": "Too many attempts. Please try again later.",
+              "samePassword": "New password must be different from current password",
+              "changeFailed": "Failed to change password. Please try again."
+            }
+          },
+          "mfa": {
+            "title": "Multi-Factor Authentication (MFA)",
+            "pageDescription": "Enhance account security by enabling multi-factor authentication to prevent unauthorized access",
+            "whyMfaTitle": "Why Enable MFA",
+            "whyMfaBenefit1": "Prevent unauthorized access even if credentials are compromised",
+            "whyMfaBenefit2": "Mitigate risks from phishing and credential stuffing attacks",
+            "whyMfaBenefit3": "Protect sensitive data and API access credentials",
+            "whyMfaBenefit4": "Comply with ISO/IEC 27001 and information security best practices",
+            "authenticatorApp": "Authenticator App",
+            "authenticatorDesc": "Use an authenticator application such as Google Authenticator, Microsoft Authenticator, or Authy to generate time-based 6-digit OTP codes that rotate every 30 seconds. This method presents lower risk than SMS-based authentication as it does not rely on cellular network availability.",
+            "enabled": "Enabled",
+            "disabled": "Not Enabled",
+            "enableMfa": "Enable MFA",
+            "disableMfa": "Disable",
+            "disableConfirmTitle": "Disable MFA",
+            "disableWarningTitle": "Warning",
+            "disableWarningDesc": "Disabling MFA will make your account more vulnerable to attacks.",
+            "disableConfirmDesc": "Are you sure you want to disable MFA?",
+            "confirmDisable": "Confirm Disable",
+            "disableWarning": "MFA adds an extra layer of security to your account",
+            "viewRecoveryCodes": "View Recovery Codes",
+            "regenerateCodes": "Regenerate Codes",
+            "recoveryCodesTitle": "Recovery Codes",
+            "recoveryCodesDesc": "Recovery codes provide account access when your authenticator application is unavailable, such as device loss or application removal. Each code is valid for single use only.",
+            "setupTitle": "Configure Multi-Factor Authentication",
+            "setupDesc": "Scan the QR code below to link your account with your Authenticator App",
+            "setupStep1": "1. Install Google Authenticator or Authy application",
+            "setupStep2": "2. Scan the QR code or enter the secret key manually",
+            "setupStep3": "3. Enter the 6-digit code from the application to verify",
+            "manualEntry": "Or enter this secret key manually:",
+            "enterCode": "Enter 6-digit authentication code",
+            "verifyEnable": "Verify and Enable",
+            "cancel": "Cancel",
+            "mfaEnabledSuccess": "Multi-Factor Authentication has been enabled",
+            "mfaEnabledSuccessDesc": "Your account is now protected by an additional authentication factor",
+            "saveRecoveryCodes": "Important: Save Your Recovery Codes",
+            "recoveryCodesWarning": "Store these recovery codes in a secure location, such as a password manager or printed copy in a secure area. If you lose access to your authenticator and do not have these codes, account access cannot be recovered.",
+            "copyAll": "Copy All",
+            "downloadCodes": "Download Recovery Codes",
+            "done": "Done",
+            "securityTip": "Security Notice",
+            "securityTipText": "Do not store recovery codes on the same device where your authenticator application is installed",
+            "twoFactorAuth": "Multi-Factor Authentication (MFA)",
+            "enterCodeFromApp": "Enter the 6-digit authentication code from your Authenticator App",
+            "invalidCode": "The code entered is invalid. Please verify and try again.",
+            "verifyCode": "Verify",
+            "orUseRecovery": "Or use a Recovery Code",
+            "useRecoveryCode": "Use Recovery Code",
+            "recoveryCode": "Recovery Code",
+            "recoveryCodeDesc": "Enter a recovery code that was provided when MFA was enabled",
+            "recoveryCodeWarning": "Each recovery code is valid for single use only. Used codes are automatically invalidated.",
+            "enterRecoveryCode": "Enter your recovery code",
+            "invalidRecoveryCode": "The recovery code entered is invalid",
+            "verifyRecoveryCode": "Verify Recovery Code",
+            "backToAuthenticator": "Back to Authenticator App",
+            "verifyError": "Authentication failed. Please verify your code and try again.",
+            "errors": {
+              "setupFailed": "Failed to start MFA setup",
+              "invalidCode": "Invalid verification code",
+              "enableFailed": "Failed to enable MFA",
+              "disableFailed": "Failed to disable MFA",
+              "regenerateFailed": "Failed to regenerate codes"
+            }
+          },
+          "sessions": {
+            "title": "Sessions & Activity",
+            "activeSessions": "Active Sessions",
+            "authLog": "Authentication Log",
+            "current": "Current",
+            "revoke": "Revoke",
+            "revokeAll": "Sign out all other sessions",
+            "device": "Device",
+            "location": "Location",
+            "lastActive": "Last Active",
+            "activeNow": "Active now",
+            "loadError": "Failed to load sessions",
+            "retryButton": "Try again",
+            "revokeError": "Failed to revoke session",
+            "revokeAllError": "Failed to revoke all sessions",
+            "revokeAllConfirmTitle": "Confirm Revoke All Sessions",
+            "revokeAllConfirmDesc": "Are you sure you want to revoke all other sessions? This will sign you out from all other devices.",
+            "cancel": "Cancel",
+            "confirm": "Confirm",
+            "loggedIn": "Logged in",
+            "time": {
+              "justNow": "Just now",
+              "minutesAgo": "{minutes} minutes ago",
+              "hoursAgo": "{hours} hours ago",
+              "oneDayAgo": "1 day ago",
+              "daysAgo": "{days} days ago"
+            }
+          }
+        }
+      },
+      "organization": {
+        "dashboard": {
+          "title": "Dashboard",
+          "description": "Organization API usage overview",
+          "totalApiCalls": "Total API Calls",
+          "activeCredentials": "Active Credentials",
+          "teamMembers": "Team Members",
+          "apiTraffic": "API Traffic",
+          "topEndpoints": "Top Endpoints"
+        },
+        "services": {
+          "title": "Services & APIs",
+          "description": "Browse and manage API subscriptions",
+          "catalog": "API Catalog",
+          "subscribed": "Subscribed"
+        },
+        "credentials": {
+          "title": "Credentials",
+          "description": "Manage API keys and secrets"
+        },
+        "applications": {
+          "title": "Applications",
+          "description": "Manage your applications and API access",
+          "newApplication": "New Application",
+          "createTitle": "Create New Application",
+          "create": "Create",
+          "fetchError": "Failed to fetch applications",
+          "createError": "Failed to create application"
+        },
+        "usage": {
+          "title": "Usage & Billing",
+          "description": "Monitor API usage and costs"
+        },
+        "team": {
+          "title": "Team",
+          "description": "Manage team members and roles"
+        },
+        "requests": {
+          "title": "Requests",
+          "description": "API access requests and approvals"
+        },
+        "settings": {
+          "title": "Settings",
+          "description": "Organization settings and preferences"
+        }
+      },
+      "platformAdmin": {
+        "dashboard": {
+          "title": "Overview",
+          "description": "Platform overview and system health",
+          "systemHealth": "System Health",
+          "pendingApprovals": "Pending Approvals",
+          "activeUsers": "Active Users",
+          "totalOrganizations": "Total Organizations",
+          "apiCallsToday": "API Calls Today",
+          "errorRate": "Error Rate"
+        },
+        "users": {
+          "title": "Users",
+          "description": "Manage platform users"
+        },
+        "roles": {
+          "title": "Roles & Permissions",
+          "description": "Configure access control"
+        },
+        "sessions": {
+          "title": "Active Sessions",
+          "description": "Monitor user sessions"
+        },
+        "services": {
+          "title": "Service Registry",
+          "description": "Manage API services"
+        },
+        "versions": {
+          "title": "Version Control",
+          "description": "Manage API versions"
+        },
+        "routes": {
+          "title": "API Routes",
+          "description": "Configure routing rules"
+        },
+        "rateLimits": {
+          "title": "Rate Limiting",
+          "description": "Configure rate limit policies"
+        },
+        "clients": {
+          "title": "Client Applications",
+          "description": "Manage OAuth clients"
+        },
+        "credentials": {
+          "title": "API Credentials",
+          "description": "Manage API keys and tokens"
+        },
+        "subscriptions": {
+          "title": "Subscriptions",
+          "description": "Manage API subscriptions"
+        },
+        "approvals": {
+          "title": "Pending Approvals",
+          "description": "Review and process organization registration requests",
+          "stats": {
+            "pending": "Pending",
+            "highPriority": "High Priority",
+            "approvedToday": "Approved Today",
+            "rejectedToday": "Rejected Today"
+          },
+          "filters": {
+            "allStatus": "All Status",
+            "pending": "Pending",
+            "needInfo": "Need Info",
+            "approved": "Approved",
+            "rejected": "Rejected",
+            "moreFilters": "More Filters"
+          },
+          "table": {
+            "trackingCode": "Tracking Code",
+            "organization": "Organization",
+            "contact": "Contact",
+            "status": "Status",
+            "submitted": "Submitted",
+            "actions": "Actions"
+          },
+          "status": {
+            "pending": "Pending",
+            "approved": "Approved",
+            "rejected": "Rejected",
+            "needInfo": "Need Info"
+          },
+          "actions": {
+            "view": "View Details",
+            "approve": "Approve",
+            "reject": "Reject",
+            "requestInfo": "Request More Info"
+          },
+          "loading": "Loading registrations...",
+          "pagination": {
+            "showing": "Showing",
+            "to": "to",
+            "of": "of",
+            "registrations": "registrations",
+            "previous": "Previous",
+            "next": "Next"
+          },
+          "detail": {
+            "title": "Registration",
+            "backToList": "Back to Approvals List",
+            "orgInfo": "Organization Information",
+            "orgNameTh": "Organization Name (TH)",
+            "orgNameEn": "Organization Name (EN)",
+            "taxId": "Tax ID",
+            "businessType": "Business Type",
+            "contactPerson": "Contact Person",
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "orgAddress": "Organization Address",
+            "timeline": "Timeline",
+            "submitted": "Submitted",
+            "reviewed": "Reviewed",
+            "by": "by",
+            "lastUpdated": "Last Updated",
+            "trackingCode": "Tracking Code",
+            "rejectionReason": "Rejection Reason",
+            "additionalInfoRequired": "Additional Information Required",
+            "statusBadge": {
+              "pendingReview": "Pending Review",
+              "approved": "Approved",
+              "rejected": "Rejected",
+              "needMoreInfo": "Need More Information"
+            },
+            "actionButtons": {
+              "approve": "Approve Registration",
+              "reject": "Reject Registration",
+              "requestInfo": "Request More Information"
+            },
+            "loadingDetails": "Loading registration details...",
+            "error": "Error",
+            "notFound": "Registration not found",
+            "backToApprovals": "Back to Approvals"
+          },
+          "modals": {
+            "approve": {
+              "title": "Confirm Approval",
+              "organization": "Organization",
+              "trackingCode": "Tracking Code",
+              "whatWillHappen": "What will happen when you approve:",
+              "step1": "Kratos identity will be created for the contact person",
+              "step2": "Welcome email will be sent with password reset link",
+              "step3": "Organization will gain access to the platform",
+              "step4": "Permissions will be assigned automatically",
+              "confirmQuestion": "Are you sure you want to approve this registration?",
+              "confirmButton": "Confirm Approval",
+              "cancelButton": "Cancel",
+              "processing": "Processing...",
+              "success": "Registration approved successfully",
+              "error": "Failed to approve registration"
+            },
+            "reject": {
+              "title": "Reject Registration",
+              "organization": "Organization",
+              "trackingCode": "Tracking Code",
+              "reasonLabel": "Rejection Reason",
+              "reasonRequired": "Please provide a reason for rejection",
+              "reasonMinLength": "Reason must be at least 10 characters",
+              "quickSelect": "Quick select:",
+              "reasons": {
+                "incomplete": "Incomplete information",
+                "invalid": "Invalid documents",
+                "duplicate": "Duplicate registration",
+                "ineligible": "Does not meet requirements"
+              },
+              "customReason": "Custom reason (min 10 characters):",
+              "confirmButton": "Confirm Rejection",
+              "cancelButton": "Cancel",
+              "processing": "Processing...",
+              "success": "Registration rejected successfully",
+              "error": "Failed to reject registration"
+            },
+            "requestInfo": {
+              "title": "Request More Information",
+              "organization": "Organization",
+              "trackingCode": "Tracking Code",
+              "messageLabel": "Message to Organization",
+              "messageRequired": "Please provide a message",
+              "messageMinLength": "Message must be at least 20 characters",
+              "quickSelect": "Quick select:",
+              "messages": {
+                "documents": "Please provide complete documentation",
+                "clarification": "Please clarify business purpose",
+                "verification": "Additional verification required",
+                "contact": "Please provide additional contact details"
+              },
+              "customMessage": "Custom message (min 20 characters):",
+              "confirmButton": "Send Request",
+              "cancelButton": "Cancel",
+              "processing": "Sending...",
+              "success": "Information request sent successfully",
+              "error": "Failed to send information request"
+            }
+          }
+        },
+        "requests": {
+          "title": "Access Requests",
+          "description": "Manage access requests"
+        },
+        "workflowHistory": {
+          "title": "Workflow History",
+          "description": "Audit trail of approvals"
+        },
+        "policies": {
+          "title": "Policy Management",
+          "description": "Configure security policies"
+        },
+        "policyTest": {
+          "title": "Policy Simulator",
+          "description": "Test policies before deployment"
+        },
+        "securityRules": {
+          "title": "Security Rules",
+          "description": "Configure WAF and security rules"
+        },
+        "auditLogs": {
+          "title": "Audit Logs",
+          "description": "Track platform activities"
+        },
+        "analytics": {
+          "title": "API Analytics",
+          "description": "Usage insights and trends"
+        },
+        "metrics": {
+          "title": "System Metrics",
+          "description": "Performance monitoring"
+        },
+        "alerts": {
+          "title": "Alerts & Incidents",
+          "description": "Monitor system alerts"
+        },
+        "settings": {
+          "title": "Platform Settings",
+          "description": "Configure platform settings"
+        },
+        "integrations": {
+          "title": "External Integrations",
+          "description": "Manage external services"
+        },
+        "maintenance": {
+          "title": "Maintenance Mode",
+          "description": "System maintenance settings"
+        }
+      }
+    }
+  },
+  "legal": {
+    "title": "Legal Information",
+    "banner": {
+      "ariaLabel": "Cookie consent notice",
+      "title": "We Value Your Privacy",
+      "message": "We use cookies to ensure the security and functionality of this government platform. Essential cookies are required for authentication and session management. You can customize your preferences for optional cookies.",
+      "acceptAll": "Accept All Cookies",
+      "acceptAllAria": "Accept all cookies including optional ones",
+      "rejectOptional": "Essential Only",
+      "rejectOptionalAria": "Use only essential cookies required for the platform",
+      "customize": "Customize Settings",
+      "customizeAria": "Open cookie settings to customize your preferences",
+      "readMore": "Learn More",
+      "govAssurance": "Secured by Thai Government Standards - Your data is protected under PDPA"
+    },
+    "settings": {
+      "title": "Cookie Preferences",
+      "close": "Close",
+      "intro": "The Excise Department website uses cookies to provide efficient and secure services to users. Cookies help remember your visits and preferences to improve service quality and enhance your user experience. You can manage your cookie preferences according to your needs.",
+      "categories": {
+        "essential": "Essential Cookies",
+        "functional": "Functional Cookies",
+        "analytics": "Analytics Cookies"
+      },
+      "essential": {
+        "desc": "These cookies are strictly necessary for the website and security system to function. They are used for authentication, session management, and accessing secure areas of the website. Without these cookies, you will not be able to access critical platform services. These cookies are always enabled and cannot be disabled.",
+        "cookies": {
+          "kratosSession": "User authentication session (Ory Kratos) for maintaining login state and security"
+        }
+      },
+      "functional": {
+        "desc": "These cookies help the website remember your settings and preferences, such as display theme (light/dark mode), language selection (Thai/English), and timezone. They provide a convenient and personalized user experience tailored specifically for you. Disabling these cookies will require you to reconfigure settings each time you visit, but will not affect the website's core functionality.",
+        "cookies": {
+          "theme": "Your theme preference (light/dark/system)",
+          "language": "Your language preference (English/Thai)",
+          "timezone": "Your timezone setting"
+        }
+      },
+      "analytics": {
+        "desc": "These cookies help the Excise Department understand visitor usage patterns and behaviors to analyze and improve service quality. The collected data is statistical and anonymous, unable to identify you personally. It is used solely to improve website functionality and user experience.",
+        "notUsed": "Currently not in use."
+      },
+      "alwaysOn": "Always On",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "save": "Save Preferences",
+      "cancel": "Cancel"
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "lastUpdated": "Last Updated: December 19, 2024",
+      "intro": {
+        "title": "Introduction",
+        "consent": "By accessing the Excise OpenAPI platform (www.excise.go.th/api-hub), you acknowledge and consent to the Excise Department's use of cookies or similar technologies to collect information about your website visits, in accordance with the Personal Data Protection Act (PDPA) B.E. 2562.",
+        "what": "What Are Cookies?",
+        "whatDesc": "Cookies are small text files used to store information related to your platform access, such as date and time of visits, clicked links, pages visited, and various configuration settings. These files are stored on your computer and/or communication devices (such as notebooks, tablets, or smartphones) through your web browser when you access our platform. Cookies do not cause harm to your computer or communication devices.",
+        "why": "How the Excise Department Uses Cookies",
+        "whyDesc": "The Excise Department collects visitor information through cookies or similar technologies on websites under our management, or on your devices depending on the services used. We use cookies to improve efficiency in accessing and using the Excise Department's services via the internet for the following purposes: (1) To provide convenience and enhance user experience with our services, (2) To enable continuous login to your account on the Excise Department website, (3) To study website usage behavior for development to make the platform faster, easier to use, and more efficient."
+      },
+      "strictlyNecessary": {
+        "title": "Strictly Necessary Cookies",
+        "desc": "These cookies are essential for the core functionality of the platform and cannot be disabled. They are used for authentication, security, and session management to ensure safe and reliable access to government services.",
+        "why": "Without these cookies, critical features such as logging in, accessing APIs, and maintaining secure sessions would not function properly."
+      },
+      "functional": {
+        "title": "Functional Cookies",
+        "desc": "These cookies enable enhanced features and convenience based on your preferences. You can disable these cookies without affecting core functionality, though your personalized experience may be reduced.",
+        "why": "These cookies improve your experience by remembering your theme preference (light/dark), language selection (English/Thai), and timezone settings across sessions."
+      },
+      "analytics": {
+        "title": "Analytics Cookies",
+        "desc": "These cookies collect anonymized information about platform usage patterns to help the Excise Department understand user behavior and improve service quality.",
+        "why": "Analytics cookies are currently not implemented. When we introduce them in the future, they will be optional, fully transparent, and require your explicit consent.",
+        "future": "Future Implementation"
+      },
+      "managing": {
+        "title": "Managing Your Cookie Preferences",
+        "desc": "Data subjects can configure or delete cookie usage on their own through the settings in their web browser.",
+        "option1": "Use the Cookie Settings modal accessible from the footer of this platform to customize your preferences for functional and analytics cookies",
+        "option2": "Configure your web browser settings (Web Browser) to block, delete, or receive notifications about cookies",
+        "option3": "Note: Strictly Necessary Cookies cannot be disabled as they are required for platform security and functionality according to the PDPA B.E. 2562",
+        "browserTitle": "Browser Cookie Settings",
+        "browserDesc": "Most modern web browsers (Chrome, Firefox, Safari, Edge, etc.) allow you to view, manage, and delete cookies through their settings menu. Please visit your browser's help section for specific instructions on cookie management for your particular browser.",
+        "impactTitle": "Impact of Disabling Cookies",
+        "impactDesc": "Disabling Functional Cookies means your preferences (theme, language, timezone) will not be saved between sessions, and you will need to reconfigure them each time you visit the platform. Strictly Necessary Cookies cannot be disabled as they are essential for authentication and security - disabling them will prevent access to the platform entirely."
+      },
+      "updates": {
+        "title": "Updates to This Policy",
+        "desc": "The Excise Department may update this Cookie Policy periodically to reflect changes in our practices, technology, or legal requirements. The \"Last Updated\" date at the top of this page indicates the most recent revision.",
+        "notification": "We will notify users of significant changes through platform announcements and email notifications to registered users."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "desc": "If you have questions, concerns, or requests regarding our use of cookies or this Cookie Policy, please contact our Data Protection Officer:",
+        "email": "Email: pdpa@excise.go.th",
+        "phone": "Phone: Excise Call Center 1713 or +66 2 241 5600-19 ext. 64204, 64207, 64211",
+        "office": "Office: Excise Department, 1488 Nakhon Chai Si Road, Thanon Nakhon Chai Si, Dusit, Bangkok 10300, Thailand"
+      },
+      "table": {
+        "name": "Cookie Name",
+        "purpose": "Purpose",
+        "duration": "Duration",
+        "type": "Type",
+        "category": "Category"
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last Updated: December 19, 2024",
+      "intro": {
+        "title": "Introduction",
+        "desc": "The Excise Department, a government agency under the Ministry of Finance, is responsible for collecting excise taxes as government revenue from goods and services as specified in the tariff schedule attached to the Excise Tax Act B.E. 2560 (2017), as well as conducting inspections, prevention, and suppression of violations of excise tax laws. As a result, the Excise Department, in its capacity as a data controller and data processor under the Personal Data Protection Act B.E. 2562 (2019) (\"PDPA\"), is obligated to comply with the principles regarding the collection, use, or disclosure of personal data as prescribed by law.",
+        "commitment": "This Privacy Policy is established under the authority of Section 32 of the Act on the Organization of Public Administration B.E. 2534 (1991), as amended by the Act on the Organization of Public Administration (No. 5) B.E. 2545 (2002), to serve as a guideline for the collection, use, and disclosure of personal data of users of the Excise Department API Platform in accordance with relevant regulations and procedures."
+      },
+      "controller": {
+        "title": "Data Controller",
+        "name": "Name",
+        "nameValue": "Excise Department, Ministry of Finance, Kingdom of Thailand",
+        "address": "Address",
+        "addressValue": "1488 Nakhon Chai Si Road, Thanon Nakhon Chai Si, Dusit, Bangkok 10300, Thailand",
+        "dpo": "Data Protection Officer",
+        "email": "Email",
+        "emailValue": "pdpa@excise.go.th",
+        "phone": "Phone",
+        "phoneValue": "Excise Call Center 1713 or +66 2 241 5600-19 ext. 64204, 64207, 64211",
+        "responsibilities": "The Excise Department is the data controller responsible for the collection, processing, and protection of your personal data in accordance with the PDPA."
+      },
+      "collection": {
+        "title": "Personal Data We Collect",
+        "desc": "We collect personal data directly from you during registration and when you use our services. The types of data we collect include:",
+        "categories": {
+          "identity": "Identity Information",
+          "identityDesc": "Full name, Thai Citizen ID, passport number (for foreign nationals), date of birth, nationality",
+          "contact": "Contact Information",
+          "contactDesc": "Email address, mobile phone number, physical address (province, district, sub-district, postal code)",
+          "organization": "Organization Information (for Organization Portal users)",
+          "organizationDesc": "Organization name, tax ID, business registration number, business type, contact person details",
+          "technical": "Technical Information",
+          "technicalDesc": "IP address, browser type, device information, API usage logs, access timestamps",
+          "authentication": "Authentication Data",
+          "authenticationDesc": "Username, password (encrypted), OAuth tokens, session information, OTP codes (temporary)"
+        },
+        "children": "We do not knowingly collect personal data from individuals under 20 years of age without parental consent as required by PDPA."
+      },
+      "purposes": {
+        "title": "Purposes of Data Processing",
+        "desc": "We process your personal data for the following lawful purposes:",
+        "list": {
+          "1": "Account Management: To create, maintain, and manage your user account and provide access to our API Platform",
+          "2": "Authentication & Security: To verify your identity, authenticate access, prevent fraud, and protect against unauthorized use",
+          "3": "Service Delivery: To provide API access, manage API credentials, process service requests, and deliver technical support",
+          "4": "Communication: To send service notifications, security alerts, system updates, and respond to your inquiries",
+          "5": "Compliance: To comply with legal obligations, government regulations, and audit requirements",
+          "6": "Analytics & Improvement: To analyze platform usage, improve service quality, and develop new features (with your consent)",
+          "7": "Audit & Accountability: To maintain audit trails for security monitoring, incident investigation, and regulatory compliance"
+        }
+      },
+      "legal": {
+        "title": "Legal Basis for Processing",
+        "desc": "We process your personal data based on the following legal grounds under the PDPA:",
+        "consent": "Consent",
+        "consentDesc": "You have given explicit consent for us to process your personal data for specific purposes (e.g., functional cookies, analytics)",
+        "contract": "Contract Performance",
+        "contractDesc": "Processing is necessary to perform the contract between you and the Excise Department for API services",
+        "legalObligation": "Legal Obligation",
+        "legalObligationDesc": "Processing is required to comply with Thai laws, government regulations, and official directives",
+        "publicInterest": "Public Interest",
+        "publicInterestDesc": "Processing is necessary for the performance of public tasks carried out by the Excise Department"
+      },
+      "retention": {
+        "title": "Data Retention Period",
+        "desc": "The Excise Department will retain personal data of service users (data subjects) for the duration necessary to achieve the objectives outlined in this policy and to comply with legal requirements:",
+        "active": "Active User Accounts",
+        "activeDesc": "Personal data is retained throughout the period of active account usage for providing platform services",
+        "inactive": "Retention Period for General Users",
+        "inactiveDesc": "The Excise Department will retain personal data for a period of 5 years from the date of collection, except when retention is required to comply with laws, regulations, or when the Excise Department has a legitimate need to retain the data for establishing, exercising, or defending legal claims in accordance with the statute of limitations and enforcement laws",
+        "audit": "Audit and Security Logs",
+        "auditDesc": "Audit logs and security records related to platform access are retained for 5 years as required by government regulations and PDPA compliance requirements",
+        "compliance": "Legal and Regulatory Compliance",
+        "complianceDesc": "Data required for legal compliance, tax enforcement, excise administration, dispute resolution, or enforcement of government agreements may be retained for extended periods as mandated by Thai law",
+        "deletion": "Upon expiry of the retention period, the Excise Department will implement appropriate procedures to delete or destroy personal data, or render it into anonymized data that cannot identify individuals."
+      },
+      "rights": {
+        "title": "Your Rights Under PDPA",
+        "desc": "As a data subject, you have the following rights under the Personal Data Protection Act:",
+        "access": "Right to Access",
+        "accessDesc": "Request access to your personal data and obtain a copy of the data we hold about you",
+        "rectification": "Right to Rectification",
+        "rectificationDesc": "Request correction of inaccurate or incomplete personal data",
+        "erasure": "Right to Erasure",
+        "erasureDesc": "Request deletion of your personal data when it is no longer necessary or when you withdraw consent",
+        "restriction": "Right to Restriction",
+        "restrictionDesc": "Request restriction of processing under certain circumstances",
+        "portability": "Right to Data Portability",
+        "portabilityDesc": "Receive your personal data in a structured, commonly used, machine-readable format",
+        "objection": "Right to Object",
+        "objectionDesc": "Object to processing of your personal data for direct marketing or other purposes",
+        "withdraw": "Right to Withdraw Consent",
+        "withdrawDesc": "Withdraw consent at any time without affecting the lawfulness of processing prior to withdrawal",
+        "complaint": "Right to Lodge a Complaint",
+        "complaintDesc": "Lodge a complaint with the Personal Data Protection Committee if you believe your rights have been violated",
+        "exercise": "To exercise these rights or submit complaints regarding personal data processing, please contact the Excise Call Center at 1713 or +66 2 241 5600-19 ext. 64204, 64207, 64211, or via email at pdpa@excise.go.th. The Excise Department will process your request promptly and in accordance with legal requirements. Data subjects also have the right to lodge complaints about non-compliance with personal data protection laws to the Expert Committee as specified in Section 73 of the Personal Data Protection Act B.E. 2562."
+      },
+      "security": {
+        "title": "Data Security Measures",
+        "desc": "We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, loss, or misuse:",
+        "encryption": "Encryption",
+        "encryptionDesc": "All data in transit is encrypted using TLS 1.3. Sensitive data at rest is encrypted using AES-256 encryption",
+        "access": "Access Controls",
+        "accessDesc": "Role-based access control (RBAC) ensures only authorized personnel can access personal data",
+        "authentication": "Strong Authentication",
+        "authenticationDesc": "Multi-factor authentication (MFA) and OAuth 2.0/OpenID Connect protocols protect user accounts",
+        "monitoring": "Security Monitoring",
+        "monitoringDesc": "24/7 security monitoring, intrusion detection systems, and regular security audits",
+        "infrastructure": "Secure Infrastructure",
+        "infrastructureDesc": "Government-certified data centers in Thailand with physical and network security controls",
+        "incident": "Personal Data Breach Management",
+        "incidentDesc": "In case of a personal data breach, the Excise Department will follow clear and timely procedures to ensure maximum protection of your personal data. First, we will immediately investigate the breach when an event that may cause data leakage or unauthorized access is detected. Then, we will assess the risk to the rights of data subjects. If the event has a high impact on data subjects, we must notify the Office of the Personal Data Protection Commission (OPDPC) within 72 hours as required by law to ensure compliance with the PDPA. After notifying the OPDPC, if the impact assessment shows high risk, data subjects will be notified as soon as possible along with recommendations to prevent impacts from the incident. In all cases of personal data breaches, the Excise Department will record the incident in a Logbook or electronic system that can be audited to enable corrective actions to be tracked and verified subsequently",
+        "training": "Employee Training",
+        "trainingDesc": "Regular training for all staff handling personal data on privacy and security best practices"
+      },
+      "sharing": {
+        "title": "Data Sharing and Third Parties",
+        "desc": "We do not sell, rent, or trade your personal data. We may share your data only in the following limited circumstances:",
+        "service": "Service Providers",
+        "serviceDesc": "We use trusted third-party service providers who process data on our behalf:",
+        "oryKratos": "Ory Kratos & Hydra: Identity and access management (data stored in Thailand)",
+        "minio": "MinIO: Secure object storage for documents (data stored in Thailand)",
+        "government": "Government Agencies",
+        "governmentDesc": "We may share data with other government agencies when required by law or for official purposes",
+        "legal": "Legal Requirements",
+        "legalDesc": "We may disclose data when required by law, court order, or to protect our rights and safety",
+        "dpa": "All third-party service providers are bound by data processing agreements ensuring PDPA compliance and equivalent security standards."
+      },
+      "international": {
+        "title": "International Data Transfers",
+        "desc": "Your personal data is stored and processed exclusively within the Kingdom of Thailand in government-certified data centers.",
+        "noTransfer": "We do not transfer personal data outside Thailand without your explicit consent and appropriate safeguards as required by PDPA Section 28.",
+        "sovereignty": "Data Sovereignty Commitment",
+        "sovereigntyDesc": "As a Thai Government agency, we ensure all citizen data remains under Thai jurisdiction and protection."
+      },
+      "cookies": {
+        "title": "Cookies and Tracking",
+        "desc": "We use cookies and similar technologies as described in our Cookie Policy.",
+        "link": "Please see our",
+        "linkText": "Cookie Policy",
+        "linkEnd": "for detailed information about the cookies we use and how to manage them."
+      },
+      "updates": {
+        "title": "Updates to This Policy",
+        "desc": "We may update this Privacy Policy from time to time to reflect changes in our practices, legal requirements, or service offerings.",
+        "notification": "Material changes will be communicated via:",
+        "email": "Email notification to registered users",
+        "banner": "Prominent notice on the platform homepage",
+        "effective": "Updated policy will be effective 30 days after notification, unless immediate compliance is required by law",
+        "review": "We encourage you to review this policy periodically to stay informed about how we protect your data."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "desc": "If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact:",
+        "dpo": "Data Protection Officer (DPO)",
+        "department": "Information Security Expert, Information Technology Center, Excise Department",
+        "address": "1488 Nakhon Chai Si Road, Thanon Nakhon Chai Si, Dusit, Bangkok 10300, Thailand",
+        "email": "Email: pdpa@excise.go.th",
+        "phone": "Phone: Excise Call Center 1713 or +66 2 241 5600-19 ext. 64204, 64207, 64211",
+        "hours": "Office Hours: Monday - Friday, 08:30 - 16:30 (GMT+7)"
+      },
+      "pdpa": {
+        "title": "PDPA Compliance Statement",
+        "desc": "This Privacy Policy complies with the Personal Data Protection Act B.E. 2562 (2019) and follows the guidelines of the Personal Data Protection Committee of Thailand.",
+        "commitment": "The Excise Department is committed to upholding the highest standards of data protection and respecting your privacy rights.",
+        "certified": "Our data protection practices are regularly audited and certified by government authorities."
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last Updated: December 19, 2024",
+      "intro": {
+        "title": "Introduction",
+        "desc": "These Terms of Service (\"Terms\") govern your access to and use of the Excise OpenAPI platform (\"Platform\"), operated by the Excise Department of Thailand (\"we\", \"us\", or \"our\"). By accessing or using the Platform, you agree to be bound by these Terms.",
+        "acceptance": "If you do not agree to these Terms, you may not access or use the Platform."
+      },
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "binding": "Binding Agreement",
+        "bindingDesc": "By creating an account, accessing the Platform, or using our API services, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy.",
+        "capacity": "Legal Capacity",
+        "capacityDesc": "You represent that you are at least 20 years of age and have the legal capacity to enter into these Terms. If you are accessing the Platform on behalf of an organization, you represent that you have the authority to bind that organization to these Terms.",
+        "modifications": "Modifications to Terms",
+        "modificationsDesc": "We reserve the right to modify these Terms at any time. Changes will be effective 30 days after posting unless immediate compliance is required by law. Your continued use of the Platform after changes constitutes acceptance of the modified Terms."
+      },
+      "service": {
+        "title": "Service Description",
+        "platform": "API Platform Services",
+        "platformDesc": "The Excise OpenAPI provides government API services for developers, businesses, and organizations to access official excise-related data and services from the Excise Department of Thailand.",
+        "scope": "Services include but are not limited to:",
+        "list": {
+          "1": "API access for excise tax information and calculations",
+          "2": "Business registration and licensing data integration",
+          "3": "Real-time data synchronization with government systems",
+          "4": "Developer tools, documentation, and sandbox environments",
+          "5": "Technical support and consultation services"
+        },
+        "availability": "Service Availability",
+        "availabilityDesc": "We strive to maintain 99.9% uptime but do not guarantee uninterrupted access. The Platform may be unavailable due to maintenance, updates, or circumstances beyond our control."
+      },
+      "accounts": {
+        "title": "User Accounts",
+        "registration": "Account Registration",
+        "registrationDesc": "You must register for an account to access API services. You agree to provide accurate, current, and complete information during registration and to update this information as necessary.",
+        "responsibility": "Account Responsibility",
+        "responsibilityDesc": "You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You must immediately notify us of any unauthorized access or security breach.",
+        "types": "Account Types",
+        "individual": "Individual Account: For personal developers and individual users",
+        "organization": "Organization Account: For businesses, NGOs, and government agencies requiring team access and higher API quotas",
+        "termination": "Account Termination",
+        "terminationDesc": "We reserve the right to suspend or terminate your account if you violate these Terms, engage in fraudulent activity, or for any reason at our discretion with reasonable notice."
+      },
+      "acceptable": {
+        "title": "Acceptable Use Policy",
+        "compliance": "You agree to use the Platform only for lawful purposes and in accordance with these Terms. You agree NOT to:",
+        "prohibited": {
+          "1": "Violate any applicable laws, regulations, or third-party rights",
+          "2": "Use the Platform for fraudulent, malicious, or unauthorized purposes",
+          "3": "Attempt to gain unauthorized access to the Platform, other accounts, or connected systems",
+          "4": "Reverse engineer, decompile, or attempt to extract source code from our APIs",
+          "5": "Transmit viruses, malware, or any harmful code through the Platform",
+          "6": "Abuse, harass, or threaten other users or our staff",
+          "7": "Use automated tools to scrape, harvest, or collect data beyond API rate limits",
+          "8": "Resell, redistribute, or sublicense API access without written authorization",
+          "9": "Misrepresent your identity or affiliation with any person or organization",
+          "10": "Use the Platform to compete with or replicate our services"
+        },
+        "enforcement": "Violation of this Acceptable Use Policy may result in immediate account suspension or termination and may be reported to law enforcement authorities."
+      },
+      "api": {
+        "title": "API Usage Terms",
+        "limits": "Rate Limits and Quotas",
+        "limitsDesc": "Each account tier has specific rate limits and monthly quotas. Exceeding these limits may result in temporary throttling or service suspension. Contact us for enterprise quotas.",
+        "credentials": "API Credentials",
+        "credentialsDesc": "API keys and access tokens are confidential. You must not share, publish, or expose your credentials. Compromised credentials must be regenerated immediately.",
+        "data": "Data Usage",
+        "dataDesc": "API responses are provided for your authorized use only. You may cache data for up to 24 hours but must respect data freshness requirements specified in API documentation.",
+        "attribution": "Attribution",
+        "attributionDesc": "When displaying data obtained from our APIs, you must provide clear attribution: \"Data provided by Excise Department of Thailand\" with a link to our Platform.",
+        "monitoring": "Usage Monitoring",
+        "monitoringDesc": "We monitor API usage for performance, security, and compliance. Suspicious patterns may trigger automatic rate limiting or account review."
+      },
+      "intellectual": {
+        "title": "Intellectual Property Rights",
+        "ownership": "Government Ownership",
+        "ownershipDesc": "All content, APIs, documentation, and services provided through the Platform are owned by the Excise Department of Thailand and protected by Thai and international intellectual property laws.",
+        "license": "Limited License",
+        "licenseDesc": "We grant you a limited, non-exclusive, non-transferable, revocable license to access and use the Platform and APIs solely for your authorized purposes under these Terms.",
+        "restrictions": "You may not claim ownership of, modify, create derivative works from, or remove any proprietary notices from our Platform or APIs.",
+        "userContent": "User Content",
+        "userContentDesc": "You retain ownership of any content, applications, or integrations you create using our APIs. By using the Platform, you grant us a license to use your feedback and suggestions for improvement."
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "asIs": "Service \"As-Is\"",
+        "asIsDesc": "The Platform and APIs are provided \"as-is\" and \"as-available\" without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.",
+        "noWarranty": "No Warranty",
+        "noWarrantyDesc": "We do not warrant that the Platform will be uninterrupted, error-free, secure, or free from viruses or other harmful components. We do not guarantee the accuracy, completeness, or timeliness of data provided through APIs.",
+        "damages": "Limitation of Damages",
+        "damagesDesc": "To the maximum extent permitted by Thai law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, revenue, data, or use arising from your use of the Platform.",
+        "maxLiability": "Maximum Liability",
+        "maxLiabilityDesc": "Our total liability for any claims arising from these Terms or your use of the Platform shall not exceed the amount you paid to us (if any) in the 12 months preceding the claim.",
+        "government": "Government Immunity",
+        "governmentDesc": "As a government agency, the Excise Department operates under sovereign immunity to the extent provided by Thai law."
+      },
+      "indemnification": {
+        "title": "Indemnification",
+        "desc": "You agree to indemnify, defend, and hold harmless the Excise Department of Thailand, its officers, employees, and agents from any claims, liabilities, damages, losses, and expenses (including legal fees) arising from:",
+        "list": {
+          "1": "Your violation of these Terms or any applicable laws",
+          "2": "Your use or misuse of the Platform or APIs",
+          "3": "Your applications, content, or integrations that use our APIs",
+          "4": "Infringement of any third-party rights by your use of the Platform",
+          "5": "Any disputes between you and other users or third parties"
+        }
+      },
+      "termination": {
+        "title": "Termination",
+        "byYou": "Termination by You",
+        "byYouDesc": "You may terminate your account at any time by contacting us at contact@excise.go.th. Termination does not relieve you of obligations incurred before termination.",
+        "byUs": "Termination by Us",
+        "byUsDesc": "We may suspend or terminate your access immediately without notice if you violate these Terms, engage in fraudulent activity, or for operational or legal reasons.",
+        "effect": "Effect of Termination",
+        "effectDesc": "Upon termination, your right to access the Platform ceases immediately. All API credentials will be revoked. Provisions regarding intellectual property, liability, indemnification, and governing law survive termination.",
+        "data": "Data Retention",
+        "dataDesc": "After account termination, we will retain your data as required by law or our retention policies. You may request data deletion subject to legal and operational requirements."
+      },
+      "governing": {
+        "title": "Governing Law and Dispute Resolution",
+        "law": "Governing Law",
+        "lawDesc": "These Terms are governed by and construed in accordance with the laws of the Kingdom of Thailand, without regard to conflict of law principles.",
+        "jurisdiction": "Jurisdiction",
+        "jurisdictionDesc": "Any disputes arising from these Terms or your use of the Platform shall be subject to the exclusive jurisdiction of the courts of Thailand located in Bangkok.",
+        "negotiation": "Dispute Resolution Process",
+        "negotiationDesc": "Before initiating legal proceedings, parties agree to attempt to resolve disputes through good-faith negotiation for at least 30 days.",
+        "language": "Language",
+        "languageDesc": "These Terms are provided in English and Thai. In case of discrepancies, the Thai version shall prevail for legal purposes."
+      },
+      "general": {
+        "title": "General Provisions",
+        "entire": "Entire Agreement",
+        "entireDesc": "These Terms, together with our Privacy Policy and Cookie Policy, constitute the entire agreement between you and the Excise Department regarding the Platform.",
+        "waiver": "Waiver",
+        "waiverDesc": "Our failure to enforce any provision of these Terms does not constitute a waiver of that provision or any other provision.",
+        "severability": "Severability",
+        "severabilityDesc": "If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.",
+        "assignment": "Assignment",
+        "assignmentDesc": "You may not assign or transfer your rights under these Terms without our written consent. We may assign our rights without restriction.",
+        "notices": "Notices",
+        "noticesDesc": "Official notices will be sent to the email address associated with your account. You must keep your contact information current."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "desc": "For questions, concerns, or support regarding these Terms of Service, please contact:",
+        "department": "Excise Department, Ministry of Finance, Kingdom of Thailand",
+        "address": "1488 Nakhon Chai Si Road, Thanon Nakhon Chai Si, Dusit, Bangkok 10300, Thailand",
+        "hotline": "Hotline: Excise Call Center 1713",
+        "phone": "Phone: +66 2 241 5600-19 ext. 64204, 64207, 64211",
+        "email": "Email: pdpa@excise.go.th",
+        "website": "Website: https://www.excise.go.th",
+        "hours": "Office Hours: Monday - Friday, 08:30 - 16:30 (GMT+7)"
+      },
+      "acknowledgment": {
+        "title": "Acknowledgment",
+        "desc": "By using the Excise OpenAPI platform, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy.",
+        "version": "Terms Version: 1.0",
+        "effective": "Effective Date: December 19, 2024"
+      }
+    }
+  },
+  "navigation": {
+    "individual": {
+      "dashboard": "Dashboard",
+      "myServices": "My Services",
+      "myRequests": "My Requests",
+      "notifications": "Notifications",
+      "profile": "Profile",
+      "help": "Help",
+      "settings": "Settings",
+      "signOut": "Sign Out"
+    },
+    "organization": {
+      "dashboard": "Dashboard",
+      "servicesApis": "Services & APIs",
+      "applications": "Applications",
+      "credentials": "Credentials",
+      "usage": "Usage",
+      "team": "Team",
+      "requests": "Requests",
+      "settings": "Settings",
+      "organizationSettings": "Organization Settings",
+      "userSettings": "User Settings",
+      "signOut": "Sign Out"
+    },
+    "platformAdmin": {
+      "dashboard": "Overview",
+      "pendingApprovals": "Pending Approvals",
+      "alerts": "Alerts",
+      "auditLogs": "Audit Logs",
+      "usersRequests": "Users & Requests",
+      "users": "Users",
+      "accessRequests": "Access Requests",
+      "subscriptions": "Subscriptions",
+      "activeSessions": "Active Sessions",
+      "analytics": "Analytics",
+      "apiAnalytics": "API Analytics",
+      "systemMetrics": "System Metrics",
+      "workflowHistory": "Workflow History",
+      "apiManagement": "API Management",
+      "serviceRegistry": "Service Registry",
+      "apiDocumentation": "API Documentation",
+      "apiRoutes": "API Routes",
+      "rateLimiting": "Rate Limiting",
+      "apiCredentials": "API Credentials",
+      "clientApplications": "Client Applications",
+      "securityPolicies": "Security & Policies",
+      "rolesPermissions": "Roles & Permissions",
+      "policyManagement": "Policy Management",
+      "policySimulator": "Policy Simulator",
+      "securityRules": "Security Rules",
+      "system": "System",
+      "platformSettings": "Platform Settings",
+      "externalIntegrations": "External Integrations",
+      "maintenanceMode": "Maintenance Mode",
+      "signOut": "Sign Out"
+    },
+    "portalTitle": {
+      "individual": "Individual Portal",
+      "organization": "Organization Portal",
+      "platformAdmin": "Platform Admin"
+    }
+  },
+  "track": {
+    "title": "Track Registration",
+    "subtitle": "Check the status of your organization registration",
+    "trackingCode": "Tracking Code",
+    "submittedAt": "Submitted",
+    "reviewedAt": "Reviewed",
+    "contactSupport": "Contact Support",
+    "error": {
+      "invalidCode": "Invalid tracking code format",
+      "notFound": "Registration not found. Please check your tracking code and try again.",
+      "rateLimited": "Too many requests. Please try again later.",
+      "unknown": "An error occurred while fetching your registration. Please try again.",
+      "network": "Network error. Please check your connection and try again.",
+      "help": "If you continue to experience issues, please contact our support team."
+    },
+    "timeline": {
+      "title": "Application Timeline",
+      "subtitle": "Track the progress of your registration"
+    },
+    "nextSteps": {
+      "title": "Next Steps"
+    },
+    "help": {
+      "title": "Need Help?",
+      "description": "If you have any questions about your registration, please don't hesitate to contact us."
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Overview",
+      "description": "Platform health and user statistics",
+      "stat": {
+        "individuals": "Individual Profiles",
+        "organizations": "Organization Profiles",
+        "totalProfiles": "Total profiles",
+        "activeMembers": "active members",
+        "totalMembers": "Total Members",
+        "pending": "pending",
+        "pendingApprovals": "Pending Approvals",
+        "urgent": "urgent"
+      },
+      "membersByStatus": "Members by Status",
+      "membersByRole": "Members by Role",
+      "systemHealth": "System Health",
+      "systemHealthDesc": "Real-time status of platform services",
+      "allSystemsOperational": "All Systems Operational",
+      "operational": "Operational",
+      "degraded": "Degraded",
+      "platformTraffic": "Platform Traffic",
+      "platformTrafficDesc": "API requests over time",
+      "requestDistribution": "Request Distribution",
+      "requestDistributionDesc": "By response status",
+      "pendingApprovals": "Pending Approvals",
+      "pendingApprovalsDesc": "Requests awaiting your review",
+      "viewAll": "View all",
+      "review": "Review",
+      "recentActivity": "Recent Activity",
+      "recentActivityDesc": "Latest platform events",
+      "activity": {
+        "orgApproved": "Organization Approved",
+        "apiDeployed": "New API Deployed",
+        "policyUpdated": "Security Policy Updated",
+        "alertTriggered": "Alert Triggered"
+      },
+      "topApis": "Top APIs by Usage",
+      "topApisDesc": "Most active APIs in the last 24 hours",
+      "last24h": "Last 24 hours",
+      "last7d": "Last 7 days",
+      "last30d": "Last 30 days"
+    }
+  }
+}

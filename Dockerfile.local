@@ -1,0 +1,34 @@
+# Local development Dockerfile with hot-reload support
+# For docker-compose local development only
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Install git (required by Next.js)
+RUN apk add --no-cache git
+
+# Install dependencies
+COPY package*.json ./
+RUN npm install
+
+# Copy source code
+COPY . .
+
+# Remove next.config.js directory if exists (prevents Next.js restart loop)
+RUN rm -rf next.config.js
+
+# Initialize git repo to avoid Next.js warnings
+RUN git init && \
+    git config user.email "docker@localhost" && \
+    git config user.name "Docker" && \
+    git add . && \
+    git commit -m "initial" || true
+
+# Expose port
+EXPOSE 3000
+
+# Set environment to development
+ENV NODE_ENV=development
+
+# Run development server with hot-reload
+CMD ["npm", "run", "dev"]

@@ -1,0 +1,66 @@
+# Development Dockerfile for dev k3s environment
+# Uses build args for flexibility across dev/uat/prod environments
+
+# Dependencies stage - install production dependencies only
+FROM node:18-alpine AS deps
+WORKDIR /app
+
+# Install production dependencies only
+COPY package*.json ./
+RUN npm ci --only=production && \
+    npm cache clean --force
+
+# Build stage - build the application
+FROM node:18-alpine AS builder
+WORKDIR /app
+
+# Install all dependencies (including devDependencies for build)
+COPY package*.json ./
+RUN npm ci && \
+    npm cache clean --force
+
+# Build args for NEXT_PUBLIC_* env vars
+ARG NEXT_PUBLIC_FRONTEND_URL
+ARG NEXT_PUBLIC_AUTH_BASE_URL
+ARG NEXT_PUBLIC_API_GATEWAY_URL
+ARG NEXT_PUBLIC_IDENTITY_URL
+ARG NEXT_PUBLIC_OAUTH_URL
+ARG NEXT_PUBLIC_OAUTH_CLIENT_ID
+ARG NEXT_PUBLIC_OAUTH_REDIRECT_URI
+
+# Convert ARG to ENV (required for Next.js build)
+ENV NEXT_PUBLIC_FRONTEND_URL=$NEXT_PUBLIC_FRONTEND_URL
+ENV NEXT_PUBLIC_AUTH_BASE_URL=$NEXT_PUBLIC_AUTH_BASE_URL
+ENV NEXT_PUBLIC_API_GATEWAY_URL=$NEXT_PUBLIC_API_GATEWAY_URL
+ENV NEXT_PUBLIC_IDENTITY_URL=$NEXT_PUBLIC_IDENTITY_URL
+ENV NEXT_PUBLIC_OAUTH_URL=$NEXT_PUBLIC_OAUTH_URL
+ENV NEXT_PUBLIC_OAUTH_CLIENT_ID=$NEXT_PUBLIC_OAUTH_CLIENT_ID
+ENV NEXT_PUBLIC_OAUTH_REDIRECT_URI=$NEXT_PUBLIC_OAUTH_REDIRECT_URI
+
+# Copy source and build
+COPY . .
+RUN npm run build
+
+# Production stage - create minimal runtime image
+FROM node:18-alpine AS runner
+WORKDIR /app
+
+ENV NODE_ENV=production
+
+# Create non-root user BEFORE copying files (prevents duplication)
+RUN addgroup --system --gid 1001 nodejs && \
+    adduser --system --uid 1001 nextjs
+
+# Copy only production dependencies (from deps stage, NOT builder)
+COPY --from=deps --chown=nextjs:nodejs /app/node_modules ./node_modules
+
+# Copy built application
+COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
+COPY --from=builder --chown=nextjs:nodejs /app/public ./public
+COPY --from=builder --chown=nextjs:nodejs /app/package*.json ./
+
+USER nextjs
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
